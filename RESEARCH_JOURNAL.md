@@ -6,3 +6,9 @@
 
 ## 2023-05-20
 - We finished and submitted our proposal
+
+## 2023-06-17
+- We were able to successfully load MASSIVE dataset with its Polish subset
+- We were able to successfully load Herbert model using huggingface/transformers
+- We added linear classification layer to perform intent classification using representations from Herbert
+- We ran train loop to make sure that our linear layer is learning on small subset of dataset and we are planning to run it on whole dataset
