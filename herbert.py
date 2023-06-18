@@ -110,7 +110,8 @@ class HerbertExperiment(Experiment):
         opt_params = (
             self.intent_clf.parameters()
             if not train_base_model
-            else self.model.model.parameters() + self.intent_clf.parameters()
+            else list(self.model.model.parameters())
+            + list(self.intent_clf.parameters())
         )
         self.opt = self.optimizer_class(opt_params, lr=self.lr)
 
