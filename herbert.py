@@ -41,7 +41,12 @@ class HerbertModel:
 
 
 class HerbertMASSIVEIntentClassifier(nn.Module):
-    def __init__(self, herbert_hidden_size: int, num_of_layers: int = 3):
+    def __init__(
+        self,
+        herbert_hidden_size: int,
+        num_of_layers: int = 3,
+        dropout: float = 0.2,
+    ):
         super().__init__()
         layers = []
         prev_layer_size = herbert_hidden_size
@@ -49,7 +54,7 @@ class HerbertMASSIVEIntentClassifier(nn.Module):
             layers.append(nn.Linear(prev_layer_size, prev_layer_size // 2))
             layers.append(nn.ReLU())
             prev_layer_size = prev_layer_size // 2
-            layers.append(nn.Dropout(0.2))
+            layers.append(nn.Dropout(dropout))
             layers.append(nn.BatchNorm1d(prev_layer_size))
         layers.append(nn.Linear(prev_layer_size, len(MASSIVE_DATASET_INTENTS)))
         layers.append(nn.Softmax())
@@ -73,6 +78,7 @@ class HerbertExperiment(Experiment):
         neptune_run=None,
         batch_size: int = 32,
         train_base_model: bool = False,
+        dropout: float = 0.2,
     ):
         super(HerbertExperiment, self).__init__(
             optimizer_class=optimizer_class,
@@ -86,6 +92,7 @@ class HerbertExperiment(Experiment):
             batch_size=batch_size,
             num_of_layers=num_of_layers,
             train_base_model=train_base_model,
+            dropout=dropout,
         )
         self.name = "Herbert experiment"
         bare_model = AutoModel.from_pretrained(HERBERT_HUGGINGFACE_MODEL_ID)
@@ -96,6 +103,7 @@ class HerbertExperiment(Experiment):
         intent_clf = HerbertMASSIVEIntentClassifier(
             self.model.model.config.hidden_size,
             num_of_layers=self.num_of_layers,
+            dropout=self.dropout,
         )
         self.intent_clf = intent_clf.cuda()
         self.loss_fn = self.loss_class()

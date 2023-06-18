@@ -19,6 +19,7 @@ parser.add_argument("--num_of_layers", help="number of layers", default=3)
 parser.add_argument(
     "--train_base_model", help="train base model", default="false"
 )
+parser.add_argument("--dropout", help="dropout", default=0.2)
 
 
 class Models(Enum):
@@ -51,6 +52,7 @@ if __name__ == "__main__":
             train_base_model=(
                 True if args.train_base_model == "true" else False
             ),
+            dropout=float(args.dropout),
         ).run()
     else:
         raise NotImplementedError("Model not implemented.")
