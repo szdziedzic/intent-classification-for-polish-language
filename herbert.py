@@ -46,6 +46,9 @@ class HerbertMASSIVEIntentClassifier(nn.Module):
         layers = []
         prev_layer_size = herbert_hidden_size
         for i in range(num_of_layers - 1):
+            if i > 0:
+                layers.append(nn.Dropout(0.2))
+                layers.append(nn.BatchNorm1d(prev_layer_size))
             layers.append(nn.Linear(prev_layer_size, prev_layer_size // 2))
             layers.append(nn.ReLU())
             prev_layer_size = prev_layer_size // 2
