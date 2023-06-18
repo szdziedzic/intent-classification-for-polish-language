@@ -35,10 +35,11 @@ if __name__ == "__main__":
         HerbertExperiment(
             optimizer_class=Adam,
             loss_class=CrossEntropyLoss,
-            num_epochs=args.num_epochs,
-            test_size=args.test_size,
-            val_size=args.val_size,
-            train_size=args.train_size,
+            num_epochs=int(args.num_epochs),
+            test_size=int(args.test_size),
+            val_size=int(args.val_size),
+            train_size=int(args.train_size),
+            lr=float(args.lr),
             neptune_run=neptune_run,
         ).run()
     else:
