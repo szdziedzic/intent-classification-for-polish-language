@@ -59,6 +59,9 @@ class Experiment:
                 "batch_size": self.batch_size,
             }
 
+    def maybe_safe_classsidier_layer_state_dict_to_neptune_run(self) -> None:
+        raise NotImplementedError("Saving classifier layer not implemented.")
+
     def run(self) -> None:
         try:
             self.maybe_save_experiment_params_to_neptune_run()
@@ -68,6 +71,7 @@ class Experiment:
             print(f'Running experiment "{self.name}" testing.')
             self._test()
             print(f'Experiment "{self.name}" finished.')
+            self.maybe_safe_classsidier_layer_state_dict_to_neptune_run()
             if self.neptune_run:
                 self.neptune_run.stop()
         except Exception:

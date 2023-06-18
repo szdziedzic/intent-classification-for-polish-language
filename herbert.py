@@ -166,3 +166,9 @@ class HerbertExperiment(Experiment):
         if self.neptune_run:
             self.neptune_run["test/loss"] = test_loss
             self.neptune_run["test/acc"] = test_acc
+
+    def maybe_safe_classsidier_layer_state_dict_to_neptune_run(self) -> None:
+        if self.neptune_run:
+            self.neptune_run[
+                "model/intent_clf/weights"
+            ] = self.intent_clf.state_dict()
