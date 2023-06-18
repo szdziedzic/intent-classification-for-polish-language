@@ -1,0 +1,73 @@
+from torch.optim import Optimizer
+from torch.nn import Module
+from typing import Union
+from massive_dataset import MASSIVEDataset
+from massive_dataset import MASSIVEDatasetSplitName
+
+
+class Experiment:
+    def __init__(
+        self,
+        optimizer_class: Optimizer,
+        loss_class: Module,
+        num_epochs: int = 100,
+        lr: float = 3e-4,
+        test_size: Union[int, None] = None,
+        val_size: Union[int, None] = None,
+        train_size: Union[int, None] = None,
+        neptune_run=None,
+    ):
+        self.name = "Experiment"
+        self.optimizer_class = optimizer_class
+        self.loss_class = loss_class
+        self.test_size = test_size
+        self.val_size = val_size
+        self.train_size = train_size
+        self.dataset = MASSIVEDataset()
+        self.train_dataloader = self.dataset.get_dataloader(
+            MASSIVEDatasetSplitName.TRAIN, self.train_size
+        )
+        self.val_dataloader = self.dataset.get_dataloader(
+            MASSIVEDatasetSplitName.VAL, self.val_size
+        )
+        self.test_dataloader = self.dataset.get_dataloader(
+            MASSIVEDatasetSplitName.TEST, self.test_size
+        )
+        self.num_epochs = num_epochs
+        self.lr = lr
+        self.neptune_run = neptune_run
+
+    def _train(self) -> None:
+        raise NotImplementedError("Training not implemented.")
+
+    def _test(self) -> None:
+        raise NotImplementedError("Testing not implemented.")
+
+    def maybe_save_experiment_params_to_neptune_run(self) -> None:
+        if self.neptune_run:
+            self.neptune_run["parameters"] = {
+                "optimizer_class": str(self.optimizer_class),
+                "loss_class": str(self.loss_class),
+                "num_epochs": self.num_epochs,
+                "lr": self.lr,
+                "test_size": self.test_size,
+                "val_size": self.val_size,
+                "train_size": self.train_size,
+                "name": self.name,
+            }
+
+    def run(self) -> None:
+        try:
+            self.maybe_save_experiment_params_to_neptune_run()
+            print(f'Running experiment "{self.name}".')
+            self._train()
+            print(f'Experiment "{self.name}" finished training.')
+            print(f'Running experiment "{self.name}" testing.')
+            self._test()
+            print(f'Experiment "{self.name}" finished.')
+            if self.neptune_run:
+                self.neptune_run.stop()
+        except Exception:
+            print("Gracefully stopping neptune run.")
+            if self.neptune_run:
+                self.neptune_run.stop()
