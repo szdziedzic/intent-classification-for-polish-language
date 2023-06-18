@@ -42,12 +42,15 @@ class HerbertModel:
 
 
 class HerbertMASSIVEIntentClassifier(nn.Module):
-    def __init__(self, hidden_size: int):
+    def __init__(self, herbert_hidden_size: int, hidden_size: int = 128):
         super().__init__()
-        self.linear = nn.Linear(hidden_size, len(MASSIVE_DATASET_INTENTS))
+        self.linear1 = nn.Linear(herbert_hidden_size, hidden_size)
+        self.linear2 = nn.Linear(hidden_size, len(MASSIVE_DATASET_INTENTS))
 
     def forward(self, x):
-        x = self.linear(x)
+        x = self.linear1(x)
+        x = F.relu(x)
+        x = self.linear2(x)
         return F.softmax(x)
 
 
@@ -169,6 +172,7 @@ class HerbertExperiment(Experiment):
 
     def maybe_safe_classsidier_layer_state_dict_to_neptune_run(self) -> None:
         if self.neptune_run:
-            self.neptune_run[
-                "model/intent_clf/weights"
-            ] = self.intent_clf.state_dict()
+            torch.save(self.intent_clf, "weights.pt")
+            self.neptune_run["model/intent_clf/weights"].upload(
+                "model_checkpoints/weights.pt"
+            )
