@@ -11,6 +11,7 @@ class Experiment:
         optimizer_class: Optimizer,
         loss_class: Module,
         num_epochs: int = 100,
+        num_of_layers: int = 3,
         lr: float = 3e-4,
         test_size: Union[int, None] = None,
         val_size: Union[int, None] = None,
@@ -25,6 +26,7 @@ class Experiment:
         self.val_size = val_size
         self.train_size = train_size
         self.batch_size = batch_size
+        self.num_of_layers = num_of_layers
         self.dataset = MASSIVEDataset()
         self.train_dataloader = self.dataset.get_dataloader(
             MASSIVEDatasetSplitName.TRAIN, self.batch_size, self.train_size
@@ -57,6 +59,7 @@ class Experiment:
                 "train_size": self.train_size,
                 "name": self.name,
                 "batch_size": self.batch_size,
+                "num_of_layers": self.num_of_layers,
             }
 
     def maybe_safe_classsidier_layer_state_dict_to_neptune_run(self) -> None:

@@ -4,7 +4,6 @@ from transformers import AutoModel
 from torch import Tensor
 from torch import nn
 from torch.optim import Optimizer
-import torch.nn.functional as F
 from experiment import Experiment
 from typing import Union
 from massive_dataset import MASSIVE_DATASET_INTENTS
@@ -42,16 +41,20 @@ class HerbertModel:
 
 
 class HerbertMASSIVEIntentClassifier(nn.Module):
-    def __init__(self, herbert_hidden_size: int, hidden_size: int = 128):
+    def __init__(self, herbert_hidden_size: int, num_of_layers: int = 3):
         super().__init__()
-        self.linear1 = nn.Linear(herbert_hidden_size, hidden_size)
-        self.linear2 = nn.Linear(hidden_size, len(MASSIVE_DATASET_INTENTS))
+        layers = []
+        prev_layer_size = herbert_hidden_size
+        for i in range(num_of_layers - 1):
+            layers.append(nn.Linear(prev_layer_size, prev_layer_size // 2))
+            layers.append(nn.ReLU())
+            prev_layer_size = prev_layer_size // 2
+        layers.append(nn.Linear(prev_layer_size, len(MASSIVE_DATASET_INTENTS)))
+        layers.append(nn.Softmax())
+        self.seq = nn.Sequential(*layers)
 
     def forward(self, x):
-        x = self.linear1(x)
-        x = F.relu(x)
-        x = self.linear2(x)
-        return F.softmax(x)
+        return self.seq(x)
 
 
 class HerbertExperiment(Experiment):
@@ -60,6 +63,7 @@ class HerbertExperiment(Experiment):
         optimizer_class: Optimizer,
         loss_class: nn.Module,
         num_epochs: int = 100,
+        num_of_layers: int = 3,
         lr: float = 3e-4,
         test_size: Union[int, None] = None,
         val_size: Union[int, None] = None,
@@ -77,6 +81,7 @@ class HerbertExperiment(Experiment):
             train_size=train_size,
             neptune_run=neptune_run,
             batch_size=batch_size,
+            num_of_layers=num_of_layers,
         )
         self.name = "Herbert experiment"
         bare_model = AutoModel.from_pretrained(HERBERT_HUGGINGFACE_MODEL_ID)
@@ -85,7 +90,8 @@ class HerbertExperiment(Experiment):
         )
         self.model = HerbertModel(bare_model, HerbertTokenizer(bare_tokenizer))
         intent_clf = HerbertMASSIVEIntentClassifier(
-            self.model.model.config.hidden_size
+            self.model.model.config.hidden_size,
+            num_of_layers=self.num_of_layers,
         )
         self.intent_clf = intent_clf.cuda()
         self.loss_fn = self.loss_class()

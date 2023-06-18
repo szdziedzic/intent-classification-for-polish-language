@@ -15,6 +15,7 @@ parser.add_argument("--test_size", help="test size", default=None)
 parser.add_argument("--val_size", help="validation size", default=None)
 parser.add_argument("--train_size", help="train size", default=None)
 parser.add_argument("--batch_size", help="batch size", default=32)
+parser.add_argument("--num_of_layers", help="number of layers", default=3)
 
 
 class Models(Enum):
@@ -43,6 +44,7 @@ if __name__ == "__main__":
             lr=float(args.lr),
             neptune_run=neptune_run,
             batch_size=int(args.batch_size),
+            num_of_layers=int(args.num_of_layers),
         ).run()
     else:
         raise NotImplementedError("Model not implemented.")
