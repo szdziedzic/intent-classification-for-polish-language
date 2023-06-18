@@ -9,6 +9,11 @@ import neptune.new as neptune
 parser = argparse.ArgumentParser()
 
 parser.add_argument("--model", help="select the model")
+parser.add_argument("--num_epochs", help="number of epochs", default=100)
+parser.add_argument("--lr", help="learning rate", default=3e-4)
+parser.add_argument("--test_size", help="test size", default=None)
+parser.add_argument("--val_size", help="validation size", default=None)
+parser.add_argument("--train_size", help="train size", default=None)
 
 
 class Models(Enum):
@@ -30,10 +35,10 @@ if __name__ == "__main__":
         HerbertExperiment(
             optimizer_class=Adam,
             loss_class=CrossEntropyLoss,
-            num_epochs=5,
-            test_size=50,
-            val_size=50,
-            train_size=100,
+            num_epochs=args.num_epochs,
+            test_size=args.test_size,
+            val_size=args.val_size,
+            train_size=args.train_size,
             neptune_run=neptune_run,
         ).run()
     else:
