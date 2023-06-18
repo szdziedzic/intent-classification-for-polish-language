@@ -113,6 +113,8 @@ class HerbertExperiment(Experiment):
             y_train_predicted = []
             y_train_true = []
             self.intent_clf.train()
+            if self.train_base_model:
+                self.model.model.train()
             for iteration, (X_train, y_train) in enumerate(
                 self.train_dataloader
             ):
@@ -134,6 +136,8 @@ class HerbertExperiment(Experiment):
             y_true = []
 
             self.intent_clf.eval()
+            if self.train_base_model:
+                self.model.model.eval()
             with torch.no_grad():
                 for iteration, (X_val, y_val) in enumerate(
                     self.val_dataloader
@@ -166,6 +170,8 @@ class HerbertExperiment(Experiment):
         y_predicted = []
         y_true = []
         self.intent_clf.eval()
+        if self.train_base_model:
+            self.model.model.eval()
         with torch.no_grad():
             for iteration, (X_test, y_test) in enumerate(self.test_dataloader):
                 y_test = y_test.cuda()
