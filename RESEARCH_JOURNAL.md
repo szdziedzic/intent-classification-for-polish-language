@@ -3,7 +3,7 @@
 ## 2023-05-19
 
 - We were working on the proposal for our research project.
-- The topic was chosen and started writing the proposal.
+- The topic was chosen and we started writing the proposal.
 
 ## 2023-05-20
 
@@ -12,9 +12,9 @@
 ## 2023-06-17
 
 - Loaded the MASSIVE dataset with its Polish subset.
-- Successfully loaded the Herbert model using `huggingface/transformers` library.
+- Successfully loaded the Herbert model using the `huggingface/transformers` library.
 - Added a linear classification layer to perform intent classification using representations from Herbert.
-- We created and run a training loop to make sure that our linear layer is learning on a small subset of the dataset and we are planning to run it on a whole dataset.
+- We created and ran a training loop to ensure that our linear layer is learning on a small subset of the dataset and we plan to run it on a whole dataset.
 
 ## 2023-06-18
 
@@ -22,4 +22,6 @@
 - Monitor the model learning process using neptune.ai.
 - Ran experiments on the whole dataset.
 - Accuracy for 1 linear layer wasn't great (40%) so we decided to add another linear layer.
-- Experiment with different hyperparameters, to make sure that poor results aren't caused by bad-suited hyperparameter values.
+- Experiment with different hyperparameters and normalization techniques to obtain the best results.
+- Experiment with different architectures of the classifier
+- Try both transfer learning and finetuning of the base model as well
