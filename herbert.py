@@ -55,7 +55,6 @@ class HerbertMASSIVEIntentClassifier(nn.Module):
             layers.append(nn.ReLU())
             prev_layer_size = prev_layer_size // 2
             layers.append(nn.Dropout(dropout))
-            layers.append(nn.BatchNorm1d(prev_layer_size))
         layers.append(nn.Linear(prev_layer_size, len(MASSIVE_DATASET_INTENTS)))
         layers.append(nn.Softmax())
         self.seq = nn.Sequential(*layers)
