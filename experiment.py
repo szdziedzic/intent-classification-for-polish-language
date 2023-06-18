@@ -15,6 +15,7 @@ class Experiment:
         test_size: Union[int, None] = None,
         val_size: Union[int, None] = None,
         train_size: Union[int, None] = None,
+        batch_size: int = 32,
         neptune_run=None,
     ):
         self.name = "Experiment"
@@ -23,15 +24,16 @@ class Experiment:
         self.test_size = test_size
         self.val_size = val_size
         self.train_size = train_size
+        self.batch_size = batch_size
         self.dataset = MASSIVEDataset()
         self.train_dataloader = self.dataset.get_dataloader(
-            MASSIVEDatasetSplitName.TRAIN, self.train_size
+            MASSIVEDatasetSplitName.TRAIN, self.batch_size, self.train_size
         )
         self.val_dataloader = self.dataset.get_dataloader(
-            MASSIVEDatasetSplitName.VAL, self.val_size
+            MASSIVEDatasetSplitName.VAL, self.batch_size, self.val_size
         )
         self.test_dataloader = self.dataset.get_dataloader(
-            MASSIVEDatasetSplitName.TEST, self.test_size
+            MASSIVEDatasetSplitName.TEST, self.batch_size, self.test_size
         )
         self.num_epochs = num_epochs
         self.lr = lr
@@ -54,6 +56,7 @@ class Experiment:
                 "val_size": self.val_size,
                 "train_size": self.train_size,
                 "name": self.name,
+                "batch_size": self.batch_size,
             }
 
     def run(self) -> None:

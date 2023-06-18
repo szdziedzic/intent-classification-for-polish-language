@@ -104,12 +104,13 @@ class MASSIVEDataset:
     def get_dataloader(
         self,
         split_name: MASSIVEDatasetSplitName,
+        batch_size: int = 32,
         size: Union[int, None] = None,
     ):
         if size is None:
             return data.DataLoader(
                 MASSIVEDatasetTorchDataset(self.split[split_name]),
-                batch_size=32,
+                batch_size=batch_size,
                 shuffle=True,
                 num_workers=4,
             )
@@ -118,7 +119,7 @@ class MASSIVEDataset:
                 MASSIVEDatasetTorchDataset(self.split[split_name]),
                 range(size),
             ),
-            batch_size=32,
+            batch_size=batch_size,
             shuffle=True,
             num_workers=4,
         )

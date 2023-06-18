@@ -14,6 +14,7 @@ parser.add_argument("--lr", help="learning rate", default=3e-4)
 parser.add_argument("--test_size", help="test size", default=None)
 parser.add_argument("--val_size", help="validation size", default=None)
 parser.add_argument("--train_size", help="train size", default=None)
+parser.add_argument("--batch_size", help="batch size", default=32)
 
 
 class Models(Enum):
@@ -41,6 +42,7 @@ if __name__ == "__main__":
             train_size=int(args.train_size),
             lr=float(args.lr),
             neptune_run=neptune_run,
+            batch_size=int(args.batch_size),
         ).run()
     else:
         raise NotImplementedError("Model not implemented.")

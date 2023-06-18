@@ -25,7 +25,7 @@ If you want to stay up to date with our research progress visit our [research jo
     - `datasets`
     - `tqdm`
 2. Run `python --model herbert --num_epochs <num of epochs> --lr <learning rate> --test_size <test dataset size>
---train_size <train dataset size> --val_size <val dataset size>`
+--train_size <train dataset size> --val_size <val dataset size> --batch_size <batch size>`
 
 If you want to use [neptune.ai](https://app.neptune.ai/) to track your experiments, you need to set your API token and project id as environment variables:
 

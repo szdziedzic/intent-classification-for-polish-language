@@ -11,7 +11,7 @@ from massive_dataset import MASSIVE_DATASET_INTENTS
 import torch
 from sklearn.metrics import accuracy_score
 
-HERBERT_HuGGINGFACE_MODEL_ID = "allegro/herbert-base-cased"
+HERBERT_HUGGINGFACE_MODEL_ID = "allegro/herbert-base-cased"
 HERBERT_HUGGINGFACE_TOKENIZER_ID = "allegro/herbert-base-cased"
 
 
@@ -62,6 +62,7 @@ class HerbertExperiment(Experiment):
         val_size: Union[int, None] = None,
         train_size: Union[int, None] = None,
         neptune_run=None,
+        batch_size: int = 32,
     ):
         super(HerbertExperiment, self).__init__(
             optimizer_class=optimizer_class,
@@ -72,9 +73,10 @@ class HerbertExperiment(Experiment):
             val_size=val_size,
             train_size=train_size,
             neptune_run=neptune_run,
+            batch_size=batch_size,
         )
         self.name = "Herbert experiment"
-        bare_model = AutoModel.from_pretrained(HERBERT_HuGGINGFACE_MODEL_ID)
+        bare_model = AutoModel.from_pretrained(HERBERT_HUGGINGFACE_MODEL_ID)
         bare_tokenizer = AutoTokenizer.from_pretrained(
             HERBERT_HUGGINGFACE_TOKENIZER_ID
         )
