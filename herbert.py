@@ -70,6 +70,7 @@ class HerbertExperiment(Experiment):
         train_size: Union[int, None] = None,
         neptune_run=None,
         batch_size: int = 32,
+        train_base_model: bool = False,
     ):
         super(HerbertExperiment, self).__init__(
             optimizer_class=optimizer_class,
@@ -82,6 +83,7 @@ class HerbertExperiment(Experiment):
             neptune_run=neptune_run,
             batch_size=batch_size,
             num_of_layers=num_of_layers,
+            train_base_model=train_base_model,
         )
         self.name = "Herbert experiment"
         bare_model = AutoModel.from_pretrained(HERBERT_HUGGINGFACE_MODEL_ID)
@@ -95,9 +97,12 @@ class HerbertExperiment(Experiment):
         )
         self.intent_clf = intent_clf.cuda()
         self.loss_fn = self.loss_class()
-        self.opt = self.optimizer_class(
-            self.intent_clf.parameters(), lr=self.lr
+        opt_params = (
+            self.intent_clf.parameters()
+            if not train_base_model
+            else self.model.model.parameters() + self.intent_clf.parameters()
         )
+        self.opt = self.optimizer_class(opt_params, lr=self.lr)
 
     def _train(self) -> None:
         epoch_progress = tqdm(list(range(self.num_epochs)))

@@ -18,6 +18,7 @@ class Experiment:
         train_size: Union[int, None] = None,
         batch_size: int = 32,
         neptune_run=None,
+        train_base_model: bool = False,
     ):
         self.name = "Experiment"
         self.optimizer_class = optimizer_class
@@ -27,6 +28,7 @@ class Experiment:
         self.train_size = train_size
         self.batch_size = batch_size
         self.num_of_layers = num_of_layers
+        self.train_base_model = train_base_model
         self.dataset = MASSIVEDataset()
         self.train_dataloader = self.dataset.get_dataloader(
             MASSIVEDatasetSplitName.TRAIN, self.batch_size, self.train_size
@@ -60,6 +62,7 @@ class Experiment:
                 "name": self.name,
                 "batch_size": self.batch_size,
                 "num_of_layers": self.num_of_layers,
+                "train_base_model": self.train_base_model,
             }
 
     def maybe_safe_classsidier_layer_state_dict_to_neptune_run(self) -> None:
