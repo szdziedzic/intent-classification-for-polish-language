@@ -48,17 +48,24 @@ class HerbertMASSIVEIntentClassifier(nn.Module):
         dropout: float = 0.2,
     ):
         super().__init__()
-        layers = []
-        prev_layer_size = herbert_hidden_size
-        for i in range(num_of_layers - 1):
-            layers.append(nn.Linear(prev_layer_size, prev_layer_size // 2))
-            prev_layer_size = prev_layer_size // 2
-            layers.append(nn.BatchNorm1d(prev_layer_size))
-            layers.append(nn.ReLU())
-            layers.append(nn.Dropout(dropout))
-        layers.append(nn.Linear(prev_layer_size, len(MASSIVE_DATASET_INTENTS)))
-        layers.append(nn.Softmax())
-        self.seq = nn.Sequential(*layers)
+        # layers = []
+        # prev_layer_size = herbert_hidden_size
+        # for i in range(num_of_layers - 1):
+        #     layers.append(nn.Linear(prev_layer_size, prev_layer_size // 2))
+        #     prev_layer_size = prev_layer_size // 2
+        #     layers.append(nn.BatchNorm1d(prev_layer_size))
+        #     layers.append(nn.ReLU())
+        #     layers.append(nn.Dropout(dropout))
+        # layers.append(nn.Linear(prev_layer_size, len(MASSIVE_DATASET_INTENTS)))
+        # layers.append(nn.Softmax())
+        self.seq = nn.Sequential(
+            nn.Linear(herbert_hidden_size, 128),
+            nn.BatchNorm1d(128),
+            nn.ReLU(),
+            nn.Dropout(dropout),
+            nn.Linear(128, len(MASSIVE_DATASET_INTENTS)),
+            nn.Softmax(),
+        )
 
     def forward(self, x):
         return self.seq(x)
