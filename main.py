@@ -2,7 +2,7 @@ import argparse
 import os
 from enum import Enum
 from herbert import HerbertExperiment
-from torch.optim import Adam
+from torch.optim import AdamW
 from torch.nn import CrossEntropyLoss
 import neptune.new as neptune
 
@@ -39,7 +39,7 @@ if __name__ == "__main__":
         raise ValueError("Model not selected. Use --model <model_name> flag.")
     if args.model == Models.HERBERT.value:
         HerbertExperiment(
-            optimizer_class=Adam,
+            optimizer_class=AdamW,
             loss_class=CrossEntropyLoss,
             num_epochs=int(args.num_epochs),
             test_size=int(args.test_size) if args.test_size else None,
