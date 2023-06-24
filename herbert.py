@@ -37,19 +37,21 @@ class HerbertModel:
         self.tokenizer = tokenizer
 
     def __call__(self, x: Tensor) -> Tensor:
-        return self.model(**self.tokenizer.tokenize_batch(x)).pooler_output
+        output = self.model(**self.tokenizer.tokenize_batch(x))
+        hidden_state_mean = torch.mean(output.last_hidden_state, dim=1)
+        return torch.cat((output.pooler_output, hidden_state_mean), dim=-1)
 
 
 class HerbertMASSIVEIntentClassifier(nn.Module):
     def __init__(
         self,
-        herbert_hidden_size: int,
+        hidden_size: int,
         num_of_layers: int = 3,
         dropout: float = 0.2,
     ):
         super().__init__()
         layers = []
-        prev_layer_size = herbert_hidden_size
+        prev_layer_size = hidden_size
         for i in range(num_of_layers - 1):
             layers.append(nn.Linear(prev_layer_size, prev_layer_size // 2))
             prev_layer_size = prev_layer_size // 2
@@ -101,7 +103,7 @@ class HerbertExperiment(Experiment):
         )
         self.model = HerbertModel(bare_model, HerbertTokenizer(bare_tokenizer))
         intent_clf = HerbertMASSIVEIntentClassifier(
-            self.model.model.config.hidden_size,
+            self.model.model.config.hidden_size * 2,
             num_of_layers=self.num_of_layers,
             dropout=self.dropout,
         )
