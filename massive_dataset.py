@@ -3,6 +3,8 @@ from torch.utils import data
 from enum import Enum
 from typing import Union
 
+import pandas as pd
+
 MASSIVE_DATASET_INTENTS = [
     "datetime_query",
     "iot_hue_lightchange",
@@ -99,6 +101,38 @@ class MASSIVEDataset:
             MASSIVEDatasetSplitName.TEST: load_dataset(
                 MASSIVE_DATASET_HUGGINGFACE_ID, lang, split="test"
             ),
+        }
+
+    def get_dataloader(
+        self,
+        split_name: MASSIVEDatasetSplitName,
+        batch_size: int = 32,
+        size: Union[int, None] = None,
+    ):
+        if size is None:
+            return data.DataLoader(
+                MASSIVEDatasetTorchDataset(self.split[split_name]),
+                batch_size=batch_size,
+                shuffle=True,
+                num_workers=4,
+            )
+        return data.DataLoader(
+            data.Subset(
+                MASSIVEDatasetTorchDataset(self.split[split_name]),
+                range(size),
+            ),
+            batch_size=batch_size,
+            shuffle=True,
+            num_workers=4,
+        )
+
+
+class MASSIVEDatasetTranslated:
+    def __init__(self):
+        self.split = {
+            MASSIVEDatasetSplitName.TRAIN: pd.read_csv('translated_train.csv').values.tolist(),
+            MASSIVEDatasetSplitName.VAL: pd.read_csv('translated_val.csv').values.tolist(),
+            MASSIVEDatasetSplitName.TEST: pd.read_csv('translated_test.csv').values.tolist()
         }
 
     def get_dataloader(
