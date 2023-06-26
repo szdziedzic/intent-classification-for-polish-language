@@ -1,101 +1,2975 @@
 ,sentence,intent
-0,Play My Rock Playlist,45
-1,Olly play a good work of my favorite jazz music,45
-2,Do they give food to the outcome?,3
-3,Pink is what we need.,1
-4,Pick me,25
-5,Disconnect My Yog,8
-6,Show me my alarms.,23
-7,Olly tell me what hour is in the area g. m. t. plus five,38
-8,What to hear olly,5
-9,What alarms have I set?,23
-10,Tomorrow will be rain.,13
-11,Playlist of Nirvana,45
-12,Start playing,45
-13,Dryer in the corridor,34
-14,Include the Express in the Coffee,56
-15,Please tell me what the latest news is.,22
-16,Do not call today.,46
-17,Keep the blue light,1
-18,Turn off my alarm at 7 a.m.,52
-19,What is the weather today,13
-20,Show me international news.,22
-21,Tell me a joke.,25
-22,Remove retro songs from my playlist,45
-23,What is the weather,13
-24,What mistakes you usually make?,12
-25,Silent,46
-26,Give me the weather for this week.,13
-27,Olly shut off the light in the bedroom.,40
-28,Play a song from my playlist.,45
-29,Enable the Dryer,34
-30,Tell me a funny joke.,25
-31,What are the main news,22
-32,Should I take a parasol tomorrow?,13
-33,Go to Jazz,45
-34,increased noise,14
-35,Weather in anger.,13
-36,Play a song by Joe Prsaise,45
-37,Incorporate this smart plug,24
-38,What is the latest information,22
-39,Awakening on Thursday at 7am.,48
-40,Seven years,45
-41,Give me the weather in Barcelona for two days from now,13
-42,What is the hour,0
-43,Shadow the light,31
-44,Play music from my rock playlist.,45
-45,He does not hear you,14
-46,Can you play rock for the next hour?,45
-47,order for output,16
-48,Dark this light.,31
-49,Turn the light in the bedroom to green.,1
-50,and the darkness fell,41
-51,Remove the first alarm.,52
-52,Which day we are this year,0
-53,Oly tell me a joke.,25
-54,I like this song.,43
-55,News from the business world.,22
-56,What is data,0
-57,Make a little noise here.,34
-58,Keep the brightness of the light,18
-59,Remove the noise,46
-60,Include my plug,24
-61,What Happens in News,22
-62,I hardly hear you,14
-63,which is today,0
-64,It will rain tomorrow.,13
-65,Olli or bring home.,3
-66,Open the Bad Religion folder,45
-67,I want to have the brightness of my screen.,12
-68,What is the weather for this week?,13
-69,Who Sings a Song,57
-70,Give me the last price of the bodium.,22
-71,Play it again please.,45
-72,I feel a jazz music genre.,45
-73,I want to record music or you can do it for me,43
-74,Include the second song from the male play,45
-75,What is the hour,0
-76,Do they bring home?,3
-77,What time is in Australia?,0
-78,Be quiet for the next hour.,46
-79,The First Nest,24
-80,What is the forecast for Warsaw today?,13
-81,What is the weather now,13
-82,What is the weather for this week?,13
-83,What are the sensations in the electoral newspaper?,22
-84,What is the exchange rate of the dollar to the pound,22
-85,Turn the light into the kitchen.,41
-86,What is the date today,0
-87,Include my playlist and play the third piece in a row,45
-88,Songs of Coldplay,45
-89,Enable the Dryer,34
-90,Turn off the light in the bedroom.,40
-91,Can you order sushi for dinner today?,16
-92,Turn off the light in the bathroom.,40
-93,Wake me up at 5 a.m. this week.,48
-94,which day of the week is the first of April,0
-95,Remove the alarm I set up.,52
-96,Delete the light,40
-97,I like the songs of Christoph Zalevsky.,43
-98,Have a delivery,3
-99,What's the weather in Nagoya,13
+0,Take a taxi to the cinema for the first time,54
+1,Play a song but jazz,45
+2,Dictate Email,33
+3,What time is in Australia?,0
+4,Check the new mail.,44
+5,where Steve Jobs was born,49
+6,Information about Africa,49
+7,Be quiet for the next hour.,46
+8,Upcoming events in the calendar,50
+9,I want to listen to the sports podcast.,58
+10,Show my alarms that I set up.,23
+11,The Weekly Weather Forecast,13
+12,Turn off my alarm at 7 a.m.,52
+13,Remember me to move to not gain weight.,50
+14,Do you order a parasol?,13
+15,Please post this post on Twitter.,47
+16,Play Films,12
+17,Remember,50
+18,Find a Recipe for Tuna,9
+19,How far Portugal is from Ukraine?,49
+20,What is the highest building in the world,49
+21,Android,59
+22,Leave eltona johna concert version,45
+23,I'm going to need a jacket if it's too windy at night.,13
+24,I want it to help me.,12
+25,Keep My Read Messages,44
+26,Start Podcasts about the Warrior,58
+27,Play the car radio.,36
+28,Posts Tagged Podcast Criminatory,58
+29,Check the mother's number.,17
+30,Remember to start dinner at 5 a.m.,50
+31,Tweet to Empire Online,47
+32,I remember how I fell in love with this song.,43
+33,Drop the music,46
+34,This program is planned.,32
+35,Recipes ready in 1 hour,9
+36,Play a song from my playlist.,45
+37,Play my station.,36
+38,Write a complaint on Twitter,47
+39,The hip hop of the 1990s,45
+40,Send mom email now.,33
+41,What movies are playing tonight?,55
+42,Send Answer,33
+43,Cancel dinner tonight.,30
+44,What are the road conditions on a four,11
+45,moderate or ugly weather,13
+46,I want to order meals from Pope John's.,16
+47,Order clothes at the airport,54
+48,Make it clearer here,18
+49,I would like to help you analyze ideas.,12
+50,Send me a reminder of the meeting on Wednesday at 9 a.m.,50
+51,The dinner is ready.,3
+52,Tell the plus I hate them.,47
+53,I want a train ticket to the mountains.,2
+54,Can you make me a cup of coffee?,56
+55,Alarm at 9 a.m.,48
+56,Check out my calendar and tell me before the next event.,50
+57,Write and send an email to my boss.,33
+58,Change the noise to the maximum.,29
+59,Remember this email,15
+60,Please turn off the light in my son's room.,40
+61,Please go through the next podcast.,58
+62,I had a bad day.,12
+63,How long will I wait for a vegetarian lasagne?,9
+64,Write a tweet for me.,47
+65,Can you cancel the visit to the hairdresser I have planned for Friday?,30
+66,Remove my dinner on Monday.,30
+67,From now on pressing,46
+68,Go to Jazz,45
+69,Play my favorite podcast,58
+70,Where can I get a tequili and some Mexican jokes,3
+71,Call me a taxi.,54
+72,"Hello, Janek sent me the last email.",44
+73,Recall My Audio Book by Remigius Froz,20
+74,clearer,18
+75,Add a meeting in the office with the bartender at the third afternoon on Tuesday,50
+76,Open Spotify and open the exercise.,36
+77,What is the step on my way home at 5th?,42
+78,What are the events in this week?,6
+79,I want to listen to disco polo music.,36
+80,Cultural events on the boat,6
+81,How are the shares on the stock market,4
+82,Geographical details of the pyramid,49
+83,I have an unread mail.,44
+84,What Happens in the City,6
+85,New York,42
+86,Delete the sound,46
+87,Recover the light,18
+88,How to order food,3
+89,Where is the IRA concert,32
+90,What reminders I have planned for tomorrow afternoon,32
+91,What is the current price of the nitrogen group?,4
+92,Take the curry.,9
+93,Disconnect My Yog,8
+94,I went to the shop.,12
+95,I need a drink.,56
+96,Posts tagged philadelphia eagles,58
+97,Remove all lists,53
+98,Make a new shopping list,21
+99,What the weather is currently,13
+100,Undercover the light,18
+101,Show my meetings on Friday.,32
+102,How long the cake is cooked?,9
+103,Tell me about the new foreign policy.,22
+104,Can you play rock for the next hour?,45
+105,Is it 10th?,0
+106,Play music from my rock playlist.,45
+107,Give me my last email.,44
+108,Add bananas to the food list,21
+109,Tell me about every new topic in politics.,22
+110,Remember the meeting tomorrow at 9 a.m.,50
+111,Give me the weather for this week.,13
+112,Add this date to repeat.,50
+113,Clean up my Saturday calendar,30
+114,They want a weak light.,31
+115,You have to wake me at 6 a.m.,48
+116,I saw a bulldozer today.,12
+117,Today there are some entertainment events.,6
+118,Olly tonight at ninth in the jazz bar is a good performance of the music band I want to go,50
+119,Give the weather to the reval,13
+120,Do not call today.,46
+121,One plus two is equal.,39
+122,Tell me about quantum physics so that I can understand it.,12
+123,What is the exchange rate between the dollar and the china,10
+124,The noise of the speaker,14
+125,Brighten the light in the corridor,18
+126,Reply to the last email received.,33
+127,Tell me what the sphere is.,26
+128,When the United States gained independence,49
+129,Janina Jagodini emails to me.,44
+130,Create the next part of the podcast,58
+131,How much does Bill Gates earn?,49
+132,What to do in Berlin,6
+133,Where were the first Americans.,49
+134,What movie is Jennifer Lawrence?,49
+135,Order me a train ticket from there to Warsaw at eight this morning.,2
+136,Intelligent Nest,24
+137,Remove the guest list I created last week.,53
+138,I like the music of Sigur Ros.,43
+139,What movie should I watch today?,55
+140,Check the address of the nearby stores.,19
+141,Netflix and Chill,12
+142,What is an Electronic Emission System,26
+143,Add my fee for the 12th car to my calendar,50
+144,Radio please,36
+145,Please send an email to York.,33
+146,Weather in Vroclavia,13
+147,Send a mail to my boss.,33
+148,Tell me what the weather is now in the basement.,13
+149,What a list of things to do for today,59
+150,Have I put some reminders?,32
+151,Geographical location of India,49
+152,Explain the rules of the new football game.,12
+153,Anyone liked the picture I just posted.,27
+154,Can you play Madonna's song?,45
+155,User friendly,22
+156,Give me the order details.,59
+157,Send an email to the agency,33
+158,How large are the United States?,49
+159,Tell me everything about the hurricane.,26
+160,The nearest domino pizza is available.,3
+161,What is the currency exchange rate,10
+162,It is eighteen times thirty one.,39
+163,When the next Friday is the thirteen,0
+164,Remember the conference tomorrow in Warsaw,50
+165,Play the first piece of my playlist David Bowie,45
+166,Find more songs from this group.,45
+167,Leave it on my Facebook,47
+168,Remove the meeting on Monday.,30
+169,Play Jazz by Sanah,45
+170,Send this email to a friend.,33
+171,Four plus five.,39
+172,What the Celebrity Does,49
+173,Add the event to the calendar application,50
+174,There is a train connection from London to Paris.,42
+175,Is there something interesting nearby?,6
+176,Show a map with shops near me,42
+177,Tweet to Medicine,47
+178,Halloween is this year.,0
+179,Cancell Business Meeting on Wednesday,30
+180,Open the Bad Religion folder,45
+181,What movies are playing in my area?,55
+182,Remove tomorrow's meeting from my calendar,30
+183,"In the afternoon, I will need a filter cream.",13
+184,Open the game,51
+185,Show the available colors of light,1
+186,What are the coordinates of equations,49
+187,Should you take a parasol today?,13
+188,Make a reminder of taking medications every day in the afternoon.,50
+189,Remove Today's Dinner with Silvia,30
+190,Information about upcoming events,6
+191,Alarm at 6:30 a.m.,48
+192,Tell me more about my meeting today.,12
+193,Add to my calendar a meeting with Tom at 9 a.m.,50
+194,Play the gold,36
+195,Do you know the phone number of Matrix?,49
+196,History,12
+197,Listen to my most frequently played song list.,45
+198,Who is the music director of this song?,57
+199,Olli read my lists.,59
+200,What menu is for today add some cooked vegetables,9
+201,Where is a good vineyard near me,19
+202,Please turn off power.,8
+203,How to cook risotto,9
+204,Planning a meeting with the accounting department at the 14th and 30th on Friday,50
+205,Breakfast at Cafe Bristol,30
+206,How much does a train ticket cost on both sides,42
+207,Find my friend in my contacts and send her email.,33
+208,When is the birthday of Hemingway,49
+209,Give me a list of nearby movies.,19
+210,Increase current music,14
+211,Write an email to Dorothy with the question what he does today,33
+212,What is the weather on Friday?,13
+213,You can play Temple Run for me.,51
+214,What is the next event in the library?,6
+215,Please show me in the morning news articles related to the weather,22
+216,You can add a list of foods.,21
+217,Divide Twelve by Four,39
+218,What is the temperature,13
+219,What is the weather in the cups?,13
+220,Reduce the noise,35
+221,Give a list of circus shows in the center that are happening now,6
+222,Send a tweet about the noise problem to the sony,47
+223,Is it possible to replace cleaned soda with baking powder?,9
+224,hej olly remove my all other meetings and calls on the 2nd March as they are birthday cubes add it as an event in your calendar,50
+225,I want to see if pizza hut has proof.,3
+226,Check out all new information from the income tax department.,44
+227,What is the definition of logic,26
+228,What time is in Beijing?,0
+229,Change the light to the blue olly,1
+230,Remove the plug completely.,8
+231,Show the weather,13
+232,I have a date on Friday.,32
+233,I have any new emails from my contact.,44
+234,Please remove this event from my calendar.,30
+235,Hello,12
+236,Let’s make clothes together.,9
+237,Mail in the last 10 minutes,44
+238,Leave,51
+239,Jazz,45
+240,Find a movie nominated for Oscar,55
+241,There are the most volcanoes on Earth.,49
+242,What Happens Near Me,6
+243,How high is Mount Everest,49
+244,Write an email to Jan Puppy Gmail,33
+245,Let me know what the meeting is about.,50
+246,Do they give food to the outcome?,3
+247,What are the events today,32
+248,Find all the names starting with the letters and make a list of them.,21
+249,olly tweet to the foolish and say that their new shop decoration is horrible,47
+250,Play all the history of last week.,58
+251,Play the game Circle and Cross as a second player,51
+252,Find me intersecting podcast about the President of Poland,58
+253,What are the main news,22
+254,Check the mail,44
+255,How do you feel today,12
+256,Keep the blue light,1
+257,Give me a popular news from T.V.,22
+258,Please modify my calendar for this event.,50
+259,Why Sofia Vergara looks so young,12
+260,You can turn the radio on.,36
+261,send a mail to Joseph the bear gmail point com,33
+262,Robert wrote me an email.,44
+263,Can I buy a curry house?,16
+264,Remove the visit to my doctor on Saturday.,30
+265,What are converse shoes?,26
+266,What is the difference between California and New York?,38
+267,Marathon nearby,6
+268,So I want to keep opinions about this song and who supports this song.,43
+269,Write an opinion,43
+270,Remember this event in the future.,50
+271,How many square miles occupies the average land on earth,49
+272,Add a new mail to Julia Smith,33
+273,Can you tell me details about the upcoming annual ceremony on March 26th?,12
+274,Awakening at 10 a.m.,48
+275,Assistance is only sent to Janka.,33
+276,Give suggestions of songs,43
+277,Check the Post,44
+278,Write a tweet to the allegro about the lack of praragon in the iPhone that I sent last week to fix,47
+279,Buy a train ticket for this weekend.,2
+280,What Jazz Concerts Play in Krakow,6
+281,Send a mail to my mother with information that the birthday party is on Sunday.,33
+282,Do we have a marcin service number?,17
+283,Is it Wednesday,0
+284,Add a location reminder to the calendar,50
+285,What kind of music,57
+286,Email Alice and let her know that we are on the way.,33
+287,Create a new email to a new address rafal maulpa onet point pl,33
+288,Call Uberpool to bring me to the bar two beers.,54
+289,What days do I have to book,32
+290,Recommendation of the meeting of the Department on the 4th,50
+291,Find a recipe for rice with vegetables,9
+292,Check out the unread mail from,44
+293,Add a list of ingredients for cheese toasts.,9
+294,Dorota and I have to talk about our divorce law meeting for the first free time,50
+295,I put my alarm in the south.,48
+296,Environmental Notification Notification,22
+297,Play the songs,45
+298,Open the chess and start the game.,51
+299,Which film won the final Academy Film Award,49
+300,Set the event on Friday,50
+301,Time Difference between Canada and Poland,38
+302,Please contact,17
+303,Please play the song Bruno Mars.,45
+304,Change my bright color to blue and turn off the light in the kitchen.,1
+305,What are the film premiums this week?,55
+306,Show me the current events.,22
+307,The Italian cafe is closed between lunch and dinner.,32
+308,Actions open to name,4
+309,Can you play Sanah?,45
+310,Meeting with Monika on Tuesday,50
+311,The nearest pizzeria.,19
+312,News on a specific topic,22
+313,What does the situation mean,26
+314,Please play the audio record.,20
+315,Recipe for the cake.,9
+316,Show me the latest news from the election.,22
+317,What is the weather for this week?,13
+318,Where is Laos,49
+319,I want to play in FIFA 17,51
+320,Remove the light completely.,40
+321,Show me events from my calendar from work for the next week,50
+322,Olli has any news.,22
+323,Find the exchange rate of the dollar per pound,10
+324,Play a song but jazz,45
+325,Please add orange to my food shopping list.,21
+326,How to get in touch with Stefani,17
+327,Add the chosen song,45
+328,Check the new mail.,44
+329,Do I have to shut down my way this morning?,13
+330,Answer this mail.,33
+331,Driving time to the hole,42
+332,Please enable the wemo.,24
+333,The Birthday of Elvis Presley,49
+334,I want to know more about this weekend.,12
+335,Show the rules,9
+336,The latest news from the boat.,22
+337,Write an email to Janka Novak,33
+338,How to Get a Loan,33
+339,The latest album of the brand Lanegana,49
+340,Give me the latest news about the election in an hour.,50
+341,Remember me every day at the second afternoon at lunch.,50
+342,Let me leave this morning audition at a hundred one and three f. m.,36
+343,Twelve thirty you have a booked meeting in ten minutes.,32
+344,What are the latest news,22
+345,Set a reminder of bread baking in one hour.,50
+346,Show me tomorrow’s weather in this area.,13
+347,Replace the current time to the time e. s. t.,38
+348,Tell me when the results of the elections will be available in Delhi,22
+349,Angelina Jolie left the pitta brada,49
+350,Book a ticket to the office.,54
+351,What is the latest news about Donald Trump?,22
+352,Can you give me the current news headlines from my latest provider?,22
+353,Listen to the podcast.,58
+354,Start the next podcast.,58
+355,Remember my afternoon schedule.,50
+356,Get everything from the playlist.,45
+357,Write this song in the playlist.,43
+358,Turn off the light in the bedroom at twenty-first thirty.,40
+359,Are there any events in the center tonight?,6
+360,What is the price of the dollar in Polish gold?,10
+361,Remove My List of Old English Songs,53
+362,Do I have a parasol today?,13
+363,Interesting news from Boris,22
+364,On Monday 20th I have to talk with sin about our weekend trip,50
+365,Do I have any memories?,32
+366,Show the latest notifications,27
+367,What is the hour,0
+368,Reply to the email by writing hello you,33
+369,Reduce the intensity of light,31
+370,Who is the Prime Minister of Russia?,49
+371,Hey olly which is the hour,0
+372,The iPhone 7,26
+373,Include the rubber,34
+374,What are the most popular songs by Bartosiewicz,57
+375,How old is J. K. Rowling?,49
+376,The best recipe for spaghetti,9
+377,Add shopping to my calendar for tomorrow,50
+378,Invitation where I ended.,20
+379,Please open the Wikipedia article about the water.,12
+380,Read the latest titles of the newspaper.,22
+381,How many years Abraham Lincoln was the President of the United States?,49
+382,I have something planned for today.,32
+383,Can you find a movie repertoire?,32
+384,Remove my tomorrow dinner.,30
+385,Fast,14
+386,Hi Olly Play Radio,36
+387,There are good pizzas.,19
+388,Now it is the Eastern Time.,0
+389,Remove all events with sin.,30
+390,Continue reading The Cold Book,20
+391,Replace,53
+392,Where is Sophia Vergara,49
+393,Play musical hits,36
+394,Order Nudle for Proof,16
+395,Turn off all devices.,8
+396,Remember me,50
+397,Reply to email by Jana Kowalski,33
+398,Can you play a movie music list?,45
+399,Open the folder in apca,16
+400,Current time in Warsaw,0
+401,Title Song,57
+402,Exchange of currency,10
+403,Tell me about the city.,11
+404,Create a playlist,21
+405,Subway has a supply.,3
+406,What day of the week was the fourth of December a thousand nine hundred eighty-two,0
+407,Set a reminder on the south to eat lunch with the boss,50
+408,What is the weather in the city,13
+409,Remove Milk from the Shopping List,53
+410,Notify me on the event day.,50
+411,Do I have a birthday reception?,32
+412,Email to new contact,33
+413,Current Dollar Rate,10
+414,What New in News,22
+415,Can you cook something special for me and my wife?,12
+416,Play the songs I bought and liked.,45
+417,Please add a complaint on the site on Twitter to bar a boo,47
+418,How to cook rice,9
+419,What is the temperature in Warsaw?,13
+420,Can you tell me what hour in Gdańsk?,0
+421,Start the game,51
+422,Today is my mom's birthday send me a reminder every year on that day,50
+423,What I will do today,59
+424,This night is a hockey match.,12
+425,How much is the US dollar in England?,10
+426,There was a mail from the fourth day.,44
+427,Add a mail to my job list on Saturday,21
+428,Music,45
+429,Can you show me a list of all my last instructions?,12
+430,Should I change my tires for winter soon?,13
+431,Play the latest rock songs with a rating of four or more,45
+432,When my Chinese jokes will be delivered,3
+433,Should I open the chipsets?,13
+434,Oly shut off the light in the salon.,40
+435,Remember my birthday a day earlier.,50
+436,I want to reply to email photos.,33
+437,I want to know about Brexit.,22
+438,Sfinks only eat in place.,3
+439,Read more about Rock Sand,26
+440,Notification for the match,50
+441,What music is currently played?,57
+442,Describe Lenin,26
+443,There are some special events near me this weekend.,6
+444,Check me somewhere.,38
+445,Showing musical events nearby,6
+446,Put this song on my favorite list.,43
+447,Plants,12
+448,Open the Da Vinci Code,20
+449,Find on the internet for sale for babies,9
+450,Read the list of new emails,44
+451,How hot it is in Krakow,13
+452,Listen to my favorite,45
+453,Olli or bring home.,3
+454,How many countries have the death penalty.,49
+455,Jan sent me a mail.,44
+456,Letter to m by Jim,45
+457,Where is Maldives,49
+458,Tickets to Gdansk,2
+459,Play my playlist starting from the end.,45
+460,Recall me that tomorrow I have a reception tomorrow in Warsaw,50
+461,What theme parks are in the area?,6
+462,Current alarms,23
+463,What music is playing now?,57
+464,Film News,12
+465,Who Sings Hotel California,57
+466,Show the contact details,17
+467,Block one hour from 10 a.m. tomorrow,50
+468,Listen to Indie Rock.,45
+469,Play Techno Music,45
+470,I would like to know the best-rated pubs in the area.,19
+471,Hey google play some jazz music for me,45
+472,When we can eat,3
+473,Add a new email address and send a message.,33
+474,Define the coat,26
+475,describe hell,26
+476,Repair alarm,48
+477,Leave my last podcast,58
+478,Weather report for now,13
+479,Remove events from my list,53
+480,Clean the house,34
+481,Check if there is anything from Shelly.,44
+482,What are the latest news from Twenty Four?,22
+483,How to Make a Indian,9
+484,What alarms have I set today?,23
+485,Give me a movie.,55
+486,What would you recommend to read,12
+487,Turn off the light in the kitchen.,40
+488,What is the weather today,13
+489,Are there any coming concerts?,43
+490,Add this podcast to your favourites and enable it,58
+491,which is coldest south or north,49
+492,Lighting the light in the kitchen.,31
+493,When I have to leave the house so that I don’t be delayed at the planned meeting,50
+494,Defining the Surprising,26
+495,What is the price of the Mercator Company?,4
+496,I want to hear the Impossible Program.,36
+497,Remember the meeting with Tom on March 15th.,50
+498,Here is a new email address that you need to add to your contacts.,33
+499,Disconnect the light on the gauge,40
+500,New Tweet for Customer Service,47
+501,What is the Difference Between Feeding and Care,9
+502,Wishes of Wedding,47
+503,Networks Results,12
+504,Lose songs from male play,45
+505,Write a tweet with my current location,47
+506,wake me at eight in the morning.,48
+507,What is Leonardo DiCaprio?,49
+508,Biography of Osoby,12
+509,Please send email to mom and dad with a question.,33
+510,Play a musical playlist,45
+511,What is the exchange rate of the dollar to the Polish gold?,10
+512,How cold is it at the court today.,13
+513,What will the weather be in this week?,13
+514,The football match begins tonight.,32
+515,I want to know which supermarket near me has the best price of gluten-free bread,19
+516,Can we listen to all the podcasts?,58
+517,Set a cyclic reminder for every Sunday,50
+518,Play the pop playlist on YouTube,45
+519,The train is going to go today.,42
+520,Notification of tomorrow's 10th meeting,50
+521,Write an email to my family saying I love you all,33
+522,What is the difference between here and Japan?,38
+523,Send a fun message to all my friends.,47
+524,He has sent a mail about Tom.,44
+525,Weather information this week,13
+526,How to order a train ticket online,42
+527,Increase clarity in this room.,18
+528,Turn the light into red color.,1
+529,Can you make coffee?,56
+530,Play a romantic music on the square.,36
+531,Current weather,13
+532,The Mexican-American border wall.,22
+533,List the list that is available,21
+534,What is the largest rating in the world,49
+535,Songs by Major Laser,45
+536,Posted in Feature I'm Hungry,47
+537,Open Google Keep,59
+538,What is the second day of the next month?,0
+539,Play My Playlist Dance Music from Spotify,45
+540,Include the wemo,24
+541,Remove the Smart Neck Now,8
+542,Do you have a funny joke for me?,25
+543,Play the previous podcast,58
+544,Check my mail.,44
+545,Reduce the noise of music,35
+546,Reply Thank you to Jan.,33
+547,Play My Beatles Music,45
+548,Add to the calendar and repeat.,50
+549,Prepare for Zuzzi,33
+550,Delete the speakers,46
+551,Can you remove the next event?,30
+552,Please order a rail ticket to the hill for tomorrow morning.,2
+553,Have I received any emails in the last 10 minutes?,44
+554,Create an event,50
+555,Play the SSK,36
+556,Do I have to do something today?,32
+557,Warning at 14th,48
+558,Play r. m. f. m.,36
+559,Please turn my light on the balcony.,41
+560,Send a message to your grandmother with a message that we will come to see you on Saturday.,33
+561,Divide 200 by 4,39
+562,This is the most important or the least important moment in history.,12
+563,Talk to me sweet.,12
+564,Remember to meet tomorrow.,32
+565,which day of the week is the first of April,0
+566,"Hi Siri, put off the speakers.",46
+567,Swimming,6
+568,What is on my list of things to do?,59
+569,Remove the Smart Nest,8
+570,Current Time in Japan,0
+571,Remember that I call my mother every Tuesday at 10 a.m.,50
+572,Is my alarm set for dance lessons?,23
+573,Keep a reminder of washing at 8 a.m.,50
+574,Can you turn off the light?,40
+575,I have a meeting today.,32
+576,What time is in Deli?,0
+577,Buy a new train ticket to New York,2
+578,Add my favorite rap music playlist,45
+579,Remove the noise,46
+580,Remember me tonight to take the wash at twenty.,50
+581,What is the weather this week for your mouths?,13
+582,Planning My Acceptance,32
+583,Give me a dark light.,31
+584,Find out the price details of Motorola,4
+585,Play the song I hear most often.,45
+586,Can you turn the light,31
+587,I want to listen to dance and country music.,45
+588,I want a dark light.,31
+589,The temperature will fall tonight.,13
+590,What is the weather today,13
+591,Speech Mode of Silence,46
+592,Playing ping pong,51
+593,Olly tell me what's happening in my neighborhood this weekend,6
+594,What time is now in London?,0
+595,I have something planned for the twenty-first,32
+596,Olly tell me what hour is in the area g. m. t. plus five,38
+597,How to start dinner in dinner clothes,32
+598,What is the capital of Mexico,49
+599,Tell me about the economy and pkb india and chin,12
+600,Please clean up my shopping list.,53
+601,Please turn off all the lights.,18
+602,Play the next atmosphere,45
+603,I want to hear a little rap music.,45
+604,Start playing Doctor Who in radio broadcast,36
+605,Should I take my jacket tonight?,13
+606,You can play hard as a rock.,36
+607,He does not hear you,14
+608,Give me the types of tickets for the train from the bulk to Belgorod,42
+609,Organize a sales meeting on Wednesday at 11 a.m.,50
+610,Include the rubber,34
+611,Hey Siri What Hour,0
+612,Consequences of action,26
+613,Check the e-mail from Stefan,44
+614,What is there in Jalo,12
+615,What is Disney’s stock growth in the last week?,4
+616,Songs from The Beatles,45
+617,What do you need to make a bakery from an apple?,9
+618,What are the sensations in the electoral newspaper?,22
+619,What shops are in a radius of 15 kilometers,19
+620,Should I take an anti- rain coat before I leave?,13
+621,Play anonymous alcoholic program on a hundred one and three f. m.,36
+622,WOW,12
+623,Who is the Prime Minister of Russia?,49
+624,I want to set the alarm when I go home tomorrow to remember to go into the store and buy food,48
+625,Play Annual,45
+626,Go to the podcasts and enable the next section of Impossible,58
+627,Express to Coffee,56
+628,How to get somewhere,42
+629,Next,58
+630,Here's the truth about food on the wheels in someone's budget,22
+631,Turn off my first alarm.,52
+632,How many eggs I need for omlet,9
+633,Remember to send me an email to the boss an hour later.,50
+634,Repeat my location list,53
+635,George R. Martin’s book “Ice and Fire”,49
+636,You can transfer the date of my meeting.,32
+637,Remove the post from the calendar,30
+638,Send an email to Caroline Assistant and cancel all meetings tomorrow,33
+639,What are the most popular searches on Google,12
+640,There are new emails from the last time.,44
+641,Order a train on Goodie,2
+642,I need to know more about this weekend.,12
+643,Olly shut off the light in the bedroom.,40
+644,Please play the last song from the album.,45
+645,I'm looking for a bar or you know a good one.,19
+646,Please change the color of light to red.,1
+647,Can you play my favorite audio book tarzan?,20
+648,What is caftan,26
+649,Is there something interesting about the sea?,6
+650,Show Events in Knowledge,6
+651,New Pop Music,45
+652,Post a new status on Facebook that I enjoy the good weather,47
+653,Updates for Friends,12
+654,Play in boats.,51
+655,Turn off the light in the bedroom.,40
+656,Play a summer relax.,45
+657,I have to change the color of the light in my house to blue,1
+658,Rules please,9
+659,Add a new email address to my email emails.,15
+660,Defining the word pontificate.,26
+661,What lists are in my notebook?,59
+662,"Hi, send an invitation to your newbie to meet this Friday and block my calendar for Friday afternoon.",50
+663,Show all emails from my boss.,44
+664,What is the currency rate in this region?,10
+665,When is William's Birthday,49
+666,I need to cry or you can play sad rock songs,45
+667,Add this person.,15
+668,Write a tweet with a message to Saturn that I'm still waiting for delivery,47
+669,Turn off the light over your head.,40
+670,What a good joke,25
+671,Olly Leave the Next Recording,58
+672,Remove events from my calendar,30
+673,Jacob Błaszczykowski is married.,49
+674,Please add the express to the coffee to make a little coffee.,56
+675,Remove Milk from My Food Shopping List,53
+676,Remove the first alarm.,52
+677,Should I wear a jacket?,13
+678,Remove the shopping list,53
+679,Set a reminder in my calendar of my meeting on March 25th.,50
+680,Check the mail from my employer.,44
+681,Remove the light completely.,40
+682,What weather can we expect this week?,13
+683,What time is my next meeting?,32
+684,Event,30
+685,Remove everything from my calendar by the end of the year.,30
+686,Where is my food,3
+687,Are there any free events in my area today?,6
+688,Describe the hard disk of the computer,26
+689,The event will be hosted by Valentine and Grain.,50
+690,Check if the alarm is set at 6 a.m.,23
+691,How cold is today,13
+692,Remember me to take the mark from the airport at 6 a.m.,50
+693,What to do on Saturday at 8:00?,50
+694,Clean up everything in my calendar.,30
+695,Read my new emails.,44
+696,What is the recipe for fish soup?,9
+697,Wake me up at 5 a.m. this week.,48
+698,Lights in the salon.,31
+699,alarm at 10 a.m.,48
+700,Get rid of current alarms.,52
+701,Features of Google Pixel,12
+702,It is better than the yellow.,9
+703,Show me what are the cheapest flight tickets to Warsaw today,2
+704,I have any meetings.,32
+705,Press me please.,46
+706,Turn the light in the bedroom to green.,1
+707,Explain the meaning of the word,26
+708,When my friend’s birthday,12
+709,Please tell me what the definition of cylinder is.,26
+710,Are there any interesting events this weekend in Constantine?,6
+711,My Alarm,23
+712,newmail newmail newmail gmail com,33
+713,by received assessments,13
+714,A repeated alarm that reminds me of the event on Facebook in which I have to participate on April 7,48
+715,Where is the Cathedral of Silence,49
+716,What films played Emma Watson?,49
+717,What hours are the alarms on?,23
+718,Please add a cup of coffee,56
+719,Create a repeated meeting on March 18 on the occasion of the birthday of Amelia,50
+720,Impressive podcasts,58
+721,Temperature outside,13
+722,Turn off the light in the salon.,40
+723,Where the Holy Mountains Begin,49
+724,I must get up tomorrow at 10 a.m.,48
+725,What do you do with my personal data and information,12
+726,My alarm is set.,23
+727,I want to know all the latest information about the collapse of the Tama in California,22
+728,How many letters I have in contact?,59
+729,Please stop talking.,46
+730,I sometimes think,13
+731,I would like you to be able to calculate the response from the search results as it does wolfram alpha,12
+732,Ask the little ones.,12
+733,What is the cork in the city,11
+734,I had a hard day,12
+735,The United States is better than other countries.,12
+736,Give me a train time.,42
+737,Michael Jackson's Song,45
+738,I bought tickets for the season.,12
+739,How Much Does a British Pound Cost?,10
+740,Note today as the beginning of my diet.,50
+741,I got a message from Jan Kowalski.,44
+742,Remove My Wemo Node,8
+743,Rap,45
+744,How much is the euro in relation to the dollar?,10
+745,The Twenty-First is on Wednesday.,0
+746,Meeting tomorrow,50
+747,Set a new alarm at that time.,48
+748,Do not stop playing the mysterious garden.,20
+749,Where I was today,12
+750,Include the rubber,34
+751,Remove the name of the party.,53
+752,I need to listen to some sad songs today.,45
+753,In which year he began to play in George Clooney films.,49
+754,Reply to the email of Jerry writing I need money now it's a urgent matter,33
+755,Definition of Life,26
+756,Show me the reviews of the place with food in my nearest location,19
+757,Reply,33
+758,Speak Silent,35
+759,Will the Fourth World War be?,12
+760,Play the pastempomat.,45
+761,Show the temperature,13
+762,How long should I cook the egg?,9
+763,Open the clothes for you and me.,51
+764,I want to know more about this event.,32
+765,How Much Is LeBron James?,49
+766,The last order is ready.,3
+767,The song in the background is great.,43
+768,What Happens,27
+769,How many new emails have I received today,44
+770,Clean the list,53
+771,Do I have any events planned for the next three months?,32
+772,Facebook,27
+773,When is my brunch with Janka,32
+774,The hairdresser today.,30
+775,Email to Jana Novaka,33
+776,Find out how to get to,42
+777,Remove My List,53
+778,I need a ticket for the train to the square through Wrocław,2
+779,Reduce the light,31
+780,What events will be soon,6
+781,I have a meeting this afternoon.,32
+782,What shop will be sold tomorrow?,12
+783,Enable the Dryer,34
+784,It is the 14th of this month.,32
+785,Please give me information about the stock market.,4
+786,Updated to local time,0
+787,How much does a train ticket cost to know?,42
+788,Remove it from my calendar.,30
+789,Seven years,45
+790,Health,12
+791,How did the shares of Orlando work last week?,4
+792,Please show the customer meeting today.,32
+793,In which year this song was released.,57
+794,Play Romantic Songs,45
+795,Play my radio station,36
+796,Remove the shopping list,53
+797,Find a recipe for this dinner.,9
+798,Let me know in two hours that I have to go out for my screws lesson at the fourth afternoon at the music factory,50
+799,Hey olly change the light setting,1
+800,Reply to my email from Robert with information that I’ll see them tomorrow,33
+801,Call the taxi,54
+802,Make me a cup of coffee.,56
+803,"In the morning, the road will come.",42
+804,Should I take a suit or sweater to work today?,13
+805,I want to send a tweet to United Airlines I'm angry that I lost my baggage,47
+806,Show Meeting,50
+807,which is today,0
+808,Can you get a basalt?,12
+809,Update my Facebook every 3 hours.,27
+810,send to Michael the answer of four hundred and thirty to the mail he sent in the morning,33
+811,I have a new mail from Sarah.,44
+812,Please open and play chess with me.,51
+813,Remove the visit to the dentist.,30
+814,Make the light red.,1
+815,send an email to the cave of the monkey by two points,33
+816,Open contacts,15
+817,Warsaw,42
+818,I need a cup of coffee.,56
+819,What is planned for today,32
+820,What is Popular Now,22
+821,Remove the alarm for tomorrow.,52
+822,I don’t see the light.,18
+823,Do you know any good free designs?,12
+824,Give me the latest information.,22
+825,Give me the latest news about the fall and growth on the stock market.,22
+826,Show the dark color,31
+827,Show me my alarms.,23
+828,Order a train ticket to one direction on Tuesday at 9 a.m.,2
+829,Do you have a boy,12
+830,"The results of the elections will be on June 13th, please note this.",50
+831,You need to cancel the complaint.,47
+832,Can you give me the latest news?,22
+833,Take a look at all current memories.,32
+834,Reduce the noise,35
+835,Create a meeting event in my calendar,50
+836,What is the forecast for Warsaw today?,13
+837,Searching on the network,12
+838,Is there an alarm at 10 a.m.,23
+839,Can you make me a little coffee?,56
+840,You need to know what time is now.,0
+841,Five hundred percent.,35
+842,Join a meeting with Jack,50
+843,Email Notification,44
+844,What is the next film of Denzel Washington?,49
+845,Remove all events from my calendar.,30
+846,Release the radio station,36
+847,Meeting with Paul for tomorrow at 10 a.m.,50
+848,Remember that I began to shake before the seventh.,50
+849,Have a delivery,3
+850,Take me to layfayette saint and canal,42
+851,Check the prices and the availability of tickets for the latest movie in all the cinemas in my area.,55
+852,At what temperature of the oven it is best to prepare baked potatoes?,9
+853,The Pandora,45
+854,Rain or snow for this week.,13
+855,Have I received new emails in the last 10 minutes?,44
+856,Include my playlist and play the third piece in a row,45
+857,Disconnect alarm,52
+858,Anna will release a new film this year.,49
+859,Will it rain tomorrow?,13
+860,What Does the Word Mean,26
+861,How long should I cook the egg?,9
+862,Do you really see Russia from Alaska?,49
+863,Remove Everything,53
+864,Veganism,12
+865,Please include the latest podcast by Karola Paciorka,58
+866,Play the song of Gaga.,45
+867,It happened to me today that I had a meeting with a sin.,12
+868,Reduce by twenty percent,35
+869,Play me random songs from my playlist,45
+870,Incorporate the new smart gniazdo,24
+871,Planning a meeting with Matthew at 11 a.m. on Thursday,50
+872,Please remind me to go to the mail.,50
+873,Let me remember tomorrow's meeting an hour earlier.,50
+874,What is the element of six hundred twenty-five?,39
+875,Please look at the matter.,12
+876,Tomorrow will be rain.,13
+877,Include dark colors instead of bright in the home,1
+878,I want to listen to the winds of the wind.,45
+879,Start an email for a new email,44
+880,Order a train ticket in the weekend of the twenty-sixth of the meeting to the hill,2
+881,What Happens in News,22
+882,send an email to the jurk with a question about which he will be at home tonight,33
+883,"Open Twitter, enter my complaint and send to customer service",47
+884,What are the times of travel to Krakow?,42
+885,My employee has a telephone number.,17
+886,What time is in Western Europe?,0
+887,What the weather will be tomorrow,13
+888,I want to see all the alarms set.,23
+889,The Birthday of Violeta Villas,49
+890,Do I need a filter cream?,13
+891,What is the exchange rate of the dollar and the euro?,10
+892,Currency exchange rate between Poland and Ukraine,10
+893,The Rock Sand Horse,26
+894,Give me a Weather Report for New York City,13
+895,Incorporate the Express to the Coffee at Third,56
+896,Send a reply if it is important.,44
+897,I want to thank you all for your birthday wishes.,47
+898,Get the latest sports news every hour.,22
+899,Play the previous song,45
+900,The exchange rate of the euro per dollar,10
+901,Write a tweet,47
+902,Play my list.,45
+903,Alex News from TVN,22
+904,What is Grane,12
+905,Stop Start Juice,24
+906,Tickets to travel to Germany,2
+907,When the next train departs to the centre,42
+908,Make the lights in the bedroom red and in the corridor light in normal color,1
+909,Can you order clothes after I leave the office?,54
+910,Set a reminder for two days before the event,50
+911,It will rain on Thursday.,13
+912,Remember the event in my calendar.,50
+913,Compare People,49
+914,30 seconds back.,58
+915,What a song it is playing now?,57
+916,How much is twelve add a hundred ninety-six,39
+917,Show the list of last emails,44
+918,Open the link and find complaints.,47
+919,Should I wear an anti- rain coat?,13
+920,as it is outside,13
+921,Alarm setting,23
+922,Can you book a train ticket?,2
+923,Playing the Circle and the Cross,51
+924,Enter the radio and play the channel a hundred one and three f. m.,36
+925,What was the coming event.,32
+926,Show me podcasts,58
+927,Go to the previous podcast.,58
+928,Please play for me the songs of the 1980s.,45
+929,How many degrees are outside,13
+930,Trains to Warsaw,42
+931,Join the SSK,36
+932,Show me the last mail.,44
+933,Please read the first pages of the newspaper.,22
+934,"Reply to Jack, please send a mail.",33
+935,I want to listen to the last podcast.,58
+936,Today's Date,0
+937,Show me when I have an event.,50
+938,Start the audio playback again,20
+939,Send a tweet to Google client support that my new Nexus phone has ceased to work please help,47
+940,The nearest benzin station.,19
+941,Giuseppe has an offer.,3
+942,Pizza Hut has a supply.,3
+943,Alex play me a rap and rock song one after the other.,45
+944,Show what I have today after the eighth in the calendar.,32
+945,What is written in the new mail,44
+946,Take Harry Potter back from where I finished watching the last time.,20
+947,What interesting has happened in the sport?,12
+948,How to make coffee to make coffee,56
+949,Don’t say before I ask you.,46
+950,There is a groomer in the city for cats.,12
+951,Planning lunch with artur on Wednesday afternoon.,50
+952,Do we expect rain in the afternoon?,13
+953,What hours are the alarms?,23
+954,Look up,12
+955,What is the time in China?,0
+956,Say a joke.,25
+957,I want to hear the latest news from CNN.,22
+958,In which year was the lech valse born?,49
+959,The best paid jobs in digital marketing in my neighborhood,12
+960,I want to listen to a rock mouse.,45
+961,Tell me if I have any new messages in my box.,44
+962,Send an email to my uncle Janka with information that I will give advice.,33
+963,What is the most fun joke you know?,25
+964,Please ticket to the train.,2
+965,Remember how many letters I have.,59
+966,What is the week forecast?,13
+967,Book tickets from Christmas to Christmas on Tuesday,2
+968,Send a tweet to the cleanliner in their store,47
+969,set the notification to three two and one hours before the English final next week,50
+970,Add a reminder on April 20th on my brother's birthday,50
+971,describe the wire,26
+972,Change the light in the room into green and red.,1
+973,Do you have any new emails today?,44
+974,Find me a rail ticket to the anger,2
+975,Notification for Nord Stream,22
+976,What is the pound now,10
+977,I really like this song.,43
+978,which will be next Wednesday.,0
+979,Call to,17
+980,Back to the last part of the podcast.,58
+981,Defining the criminal word.,26
+982,Can you play the f.m. station that plays pop songs?,36
+983,Can you promote action videos?,55
+984,Find me a joke about baseball,25
+985,How much tornado was this month?,12
+986,What are the positions on my shopping list,59
+987,See what you wrote about this question.,12
+988,Order a taxi to the airport.,54
+989,Showing a video with the regulation,9
+990,What is the weather in the chain,13
+991,Tell me what’s happening on Instagram.,27
+992,Include my favorite book.,20
+993,What hour is in the hour?,0
+994,Make light in a blue room,1
+995,Please give me information about John Abraham Lincoln,49
+996,Give me the latest updates from Facebook,27
+997,Make a reminder of this.,50
+998,It would be great if I could give you legal advice.,12
+999,Showing a video of how to make a chicken,9
+1000,Harry Potter and the Stone of Philosophy,20
+1001,Where are the Indies,49
+1002,How many people will be in the world in 20 years?,12
+1003,Remove the apple from the list.,53
+1004,Make a coffee,56
+1005,Where is the legnica,49
+1006,"I want him to be able to give me statistics about the things that have been done for me, for example how often I’ve eaten out of the house this month.",12
+1007,What exactly is filling out of the water?,26
+1008,Publish this video on the page.,47
+1009,There will be a person parking the car.,32
+1010,What is a song,57
+1011,What Happens in My City,6
+1012,Main news from TVN Twenty Four,22
+1013,My coffee is cold please make more coffee,56
+1014,What is the weather,13
+1015,Weather in anger.,13
+1016,Turn off electricity,8
+1017,I am going to work today.,12
+1018,Play Jazz,45
+1019,Add paav bhaji to the menu,21
+1020,Open the task Remove future events,30
+1021,Who sent me yesterday,44
+1022,Send an email to the pet asking how he feels and if I can help him any way.,33
+1023,I want to know what time is now.,0
+1024,Give me train times near my location.,42
+1025,Please write a tweet complaint plus their bad customer service,47
+1026,Tell me about events.,12
+1027,Parenting,12
+1028,Tell me an hour.,0
+1029,What are the latest news,22
+1030,Table with overwhelmed legs,12
+1031,Tell me when they open registration.,50
+1032,What is the price of the fort,4
+1033,Please check my email and tell me I have a new email.,44
+1034,How to activate the rubber,34
+1035,Awakening on Thursday at 7am.,48
+1036,What are my plans for May?,32
+1037,Disconnect the Nest,8
+1038,Play a song by Joe Prsaise,45
+1039,Where is Fiji,49
+1040,Then play dance stupid dance,45
+1041,News from TVN,22
+1042,Some special events on my list.,59
+1043,Meet the Cross on Tuesday at 11 a.m.,50
+1044,Check the mail from Janka.,44
+1045,How many people will come to my next meeting?,32
+1046,Is there imports?,3
+1047,What is the exchange rate of the US dollar to the euro?,10
+1048,Direction please,42
+1049,What is the time in Canada?,0
+1050,What will the date be on next Tuesday?,0
+1051,Who is on the radio,57
+1052,How to get to Marseille,42
+1053,Become a helicopter,12
+1054,Please turn on Radio Zet.,36
+1055,What you think,12
+1056,Can I cut the grass tonight?,13
+1057,Please clean my calendar.,30
+1058,What more reminders,32
+1059,What Happens Last in the World,22
+1060,Please enable the Dryer,34
+1061,Do I have a meeting in my calendar this afternoon?,32
+1062,Can't Feel My Face,45
+1063,"If you had to kill three people to survive, you would do that, and if so, why?",12
+1064,Judy’s birthday is April 12th.,32
+1065,Make a schedule of the Anne Maria Jopek concerts,21
+1066,Check where the celebrity is.,12
+1067,Play all free songs.,45
+1068,List of famous rules on Biryan,9
+1069,Notification of the World News,22
+1070,How far is Canada from my current location?,49
+1071,How much is one to add one,39
+1072,Go to the next song on the list.,28
+1073,What was the last email from my mother?,44
+1074,Activate the Drying Work,34
+1075,Best Friends by Yelawolf,45
+1076,Please tell me what time is in the caterpillar.,0
+1077,Olly please provide the best clothing stores near me,19
+1078,Remember the day before checking the car.,50
+1079,I'm going to get an advance today I feel great.,12
+1080,Please inform me about the growth and decline of the company’s stock prices.,4
+1081,Remove a list of things to do.,53
+1082,What is a neutral photography filter with a neutral density and whether I would like to have a gradient or permanent and also what kind would be better rotated or square charged,49
+1083,Find the current local time and time zone,0
+1084,Condition of small cooling,13
+1085,I don't know how to answer this question you forgot one or two words.,12
+1086,Dark this light.,31
+1087,What is the weather now,13
+1088,I have any plans for July 7th.,32
+1089,What is the exchange rate of the dollar to the pound,22
+1090,Olly play a good work of my favorite jazz music,45
+1091,Google is one and three meters.,36
+1092,Turn off the light in the bathroom.,40
+1093,Tell me what’s happening in my family city.,6
+1094,Show me news about Trump.,22
+1095,Do you need to take sun glasses?,13
+1096,Theme,44
+1097,Define the word motivation.,26
+1098,What is the sum of two numbers four and six?,39
+1099,Planning lunch every day at 12:30 p.m.,50
+1100,Remove your doctor's visit from the calendar today,30
+1101,Do you like this song?,43
+1102,check the exchange rate,10
+1103,Meetings from the 20th to the 25th of June,32
+1104,It is the fifth morning in Berlin which hour is here.,38
+1105,What are the news on the tvn website twenty four,22
+1106,Recipe for home rosol with pasta.,9
+1107,Play some music from the radio.,36
+1108,Signally when I get an email from Jan,44
+1109,I have a new mail from the last hour.,44
+1110,Please add supervision to my calendar.,50
+1111,How to Understand Women,12
+1112,How many euros I get for a dollar?,10
+1113,check the train departure time of ten thousand eighty-eighty-seven on Tuesday from the central station of Warsaw,42
+1114,I want to listen to radio.,36
+1115,Continue the last chapter of the audio book I’ve listened to,20
+1116,Open a tweet to Apple that my iPhone battery is always consumed,47
+1117,Remove the shopping offset that I planned for March 23th,30
+1118,Check the latest mail.,44
+1119,How big is the space,49
+1120,Can you make a list for me?,21
+1121,Tell me he is 17th.,48
+1122,What time is in Rome?,0
+1123,I want to eat something picant.,16
+1124,General Health Guidelines,12
+1125,Pick me,25
+1126,I want a rap.,45
+1127,Radio ZET,36
+1128,Start the radio at a hundred one and three f. m.,36
+1129,Do I have a new mail from Jork?,44
+1130,Create a new mail to risk,33
+1131,What is the time in the city,0
+1132,I want red light.,1
+1133,Close the complaint,47
+1134,Show the coming events,32
+1135,The current price of Facebook,4
+1136,"Hello, I missed it.",12
+1137,Play Love Songs,45
+1138,Turn off the light in the hole.,40
+1139,The Coldplay Album,45
+1140,Tell me if I have a new email.,44
+1141,What kind of music I like?,57
+1142,How to describe the ball,26
+1143,Play,36
+1144,Send me an email to reply to the last email.,33
+1145,Play the game Hearthstone,26
+1146,Turn off all the lights.,40
+1147,Remember tomorrow’s reception.,50
+1148,Who Sings a Song,57
+1149,What the weather will be next Wednesday?,13
+1150,Rothko brand exhibition in Warsaw on the twentieth and fifth of March make a note about it on that day,50
+1151,Write a mail to July,33
+1152,Change at eight in the morning in a manile for an hour in Warsaw,38
+1153,Play only electric guitar songs.,45
+1154,Create a meeting in my calendar.,50
+1155,What is the day of the month and the year,0
+1156,Remember me please.,50
+1157,"If there are any new news about the flood, you can notify me immediately.",22
+1158,Olly record all the songs I’ve heard more than once,43
+1159,Give me information about the geography of India,49
+1160,The price of the HDFC,4
+1161,There was a insect in a chocolate pack.,47
+1162,How is my plan for today?,32
+1163,I have a meeting today.,32
+1164,Reply to Paul,33
+1165,Can you open my iTunes?,45
+1166,Turn off the lights in the office.,40
+1167,Send an email to my team.,33
+1168,Play the songs of Celine Dion,45
+1169,Playing the Circle and the Cross,51
+1170,Show me the list I made two days ago.,59
+1171,Value for 5,43
+1172,Reduce the noise by 35%.,29
+1173,I have a new mail.,44
+1174,Play rap music,45
+1175,New Updates,27
+1176,Play one more time,45
+1177,What is the recipe for chicken roast?,9
+1178,I want two burgers and I order it quickly.,16
+1179,What was the favourite car.,49
+1180,What is happening in the world today,22
+1181,I want light in the kitchen in a different color.,1
+1182,Remove the event from the calendar,30
+1183,Can you tell me when the train departs?,42
+1184,How much Marius proposed to invest in my company at the meeting that took place today at the seventh twenty,32
+1185,Please change the time zone to Canadian.,38
+1186,Read the food shopping list.,59
+1187,Will it rain later?,13
+1188,What Happens This Weekend in Knowledge,6
+1189,What I should see today,55
+1190,What news was there today?,22
+1191,Please remember me to call my mom in half an hour.,50
+1192,Location,26
+1193,There are events in the center this weekend.,32
+1194,How much brad pitt has grown,49
+1195,Which bar has the cheapest drinks,19
+1196,Why Adam Sandler Is Not Fun,49
+1197,How much is the euro in Poland?,10
+1198,Global warming is the truth.,12
+1199,Send an email to my brother and remember the anniversary of your wedding.,33
+1200,Repeat the music,28
+1201,What is this new action film?,55
+1202,What is the name of the game you play now?,57
+1203,Back to Jazz,45
+1204,Please delete the following list.,53
+1205,Go to the electoral newspaper.,22
+1206,Order a taxi home.,54
+1207,send invitations to the Cube and Alicia to brunch on Tuesday at 11 a.m.,50
+1208,Stay the alarm only on Monday at 6 a.m.,48
+1209,Please give the match.,12
+1210,Take the time to cook the chicken in the oven.,9
+1211,Show me the latest information from O.N.Z.,22
+1212,Prepare the coffee now,56
+1213,What is the fastest way to work in the center with the ominity of the corks,42
+1214,My shopping list is ready.,59
+1215,I want to send an email to my family you will help me,33
+1216,Olly setting dark light in the house instead of bright,1
+1217,Show me my event in the calendar this Friday afternoon,32
+1218,Radio Country,36
+1219,Alarm at 7 a.m.,48
+1220,Olly changes lighting to blue,1
+1221,When the first metro to White,42
+1222,"Hey Olly, can you make me a cream coffee?",56
+1223,Remove lists,53
+1224,Details of stock price,4
+1225,Find a position,21
+1226,Reply I am late.,33
+1227,Please agree meeting with a gift in the sandroom in the south.,50
+1228,We need to play in Need for Speed.,51
+1229,Play the next podcast,58
+1230,Notify my group that the new date for the meeting is tomorrow,50
+1231,Include the wemo,24
+1232,Find out what the song is.,57
+1233,Amal Clooney went to college.,49
+1234,Give the clothes,51
+1235,Give me the latest results today n b a,22
+1236,I have something planned for July 4th this year.,32
+1237,Remove the alarm,52
+1238,Remove this,30
+1239,I love this music or you can record it in my dance playlist and remember that I like it,43
+1240,This email requires a. s. p.,33
+1241,Tell me about my options for the train to the altar on the next Wednesday or Thursday,42
+1242,Give me a man as soon as possible.,47
+1243,Turn the event into cyclical.,50
+1244,Remove the Cold Remigius,20
+1245,What are the shops in the area,19
+1246,Play less than zero songs on radio,36
+1247,Tickets to Warsaw,2
+1248,One euro is equal to the amount of euro.,10
+1249,Please add this email to my contacts.,15
+1250,Remind me tomorrow at 10 a.m. of the meeting.,50
+1251,Can you tell me how many stomachs a cow has?,49
+1252,Hello my item I bought for someone disappeared from the order,47
+1253,Remove My Car Payment from My Calendar,53
+1254,Show all my lists.,59
+1255,Do I have new invitations to friends?,27
+1256,Can you fly in the sun?,12
+1257,Who Sings a Song of a Long Black Train,57
+1258,I would like to answer the last email.,33
+1259,Show me all the emails received in the last hour.,44
+1260,How strong is the Ten,39
+1261,Tell me what's happening on the webpage.,27
+1262,Give me the latest political headlines around the world,22
+1263,Show Local Events,6
+1264,Trump,12
+1265,The temperature will be above 4 degrees tomorrow.,13
+1266,Can you repeat this event?,50
+1267,Meetings from the third to the fifth,32
+1268,Read my list.,59
+1269,Add a new post to the list.,21
+1270,Follow the event in the calendar with others,50
+1271,Do you have a train drive to the slope?,42
+1272,The benefits of the company are growing.,4
+1273,Define Criminalism,26
+1274,My friend Jan sent me an invitation to his new home send him an email thanks,33
+1275,Please turn off the light on the patio.,40
+1276,Remember me to take the seventh angel at the fifth evening.,50
+1277,Weather Now,13
+1278,I have to make a list,21
+1279,Make a little noise here.,34
+1280,Open the clothes,51
+1281,Current time in New York,0
+1282,Send an invitation to Bill Malinda to the event,50
+1283,Please tweet a negative response to Daikin.,47
+1284,Celebrating the anniversary of March,50
+1285,Please complete my list of purchases with one gallon of 2 percent milk.,21
+1286,Olly Play Poker With Me,51
+1287,Play Radio Zet for Me,36
+1288,Include the Express in the Coffee,56
+1289,What the weather for a week,13
+1290,Send an email to a new contact,33
+1291,Brighten the light,18
+1292,Is it rainy on Saturday?,13
+1293,Make a new plan for tomorrow’s meeting.,50
+1294,Show all emails about the violation,44
+1295,Please add training on February 4 at the Mokotovsky field at 2 a.m.,50
+1296,I got a new mail from Robert.,44
+1297,where Steve Jobs was born,49
+1298,I have a new email.,44
+1299,check the email received from my mother,44
+1300,Where it came from,33
+1301,How do you call this kind of music that is just flying?,57
+1302,What ingredients I need to cook the cake?,9
+1303,Where is my meeting at the ninth morning?,32
+1304,Who's singing the song I'm listening to right now,57
+1305,Sign the next Monday,50
+1306,Write a mail to your mother and ask what the weather is.,33
+1307,Maintaining Diet,12
+1308,You can book tickets for two people on the train on Friday.,2
+1309,Remove the next event today,30
+1310,30 minutes to meet on Tuesday.,50
+1311,Song by van halen,45
+1312,Start playing,45
+1313,Great text,43
+1314,What is the date today,0
+1315,Make me coffee at the third.,56
+1316,Create a new list,21
+1317,How many meetings was held by Mahatma Gandhi,49
+1318,Go to the channel one hundred and three f. m.,36
+1319,Close the glosses,46
+1320,Play Hits on Radio,36
+1321,How to make a pizza,9
+1322,Consequences of suffering,26
+1323,Play the most popular song of Elton John,45
+1324,Send a Reminder Before Meeting,50
+1325,What is the latest update of the New York Bridge proposal,22
+1326,Please WEB,12
+1327,You can tell me what it means to be surprised.,26
+1328,Give interesting news,22
+1329,When the Dawid Garden was born,49
+1330,How does the dog,12
+1331,lead to place,42
+1332,My meeting on April 4th.,32
+1333,Enable the Dryer,34
+1334,Adding a toothpaste from the shopping list,21
+1335,Write a tweet with a complaint on orange,47
+1336,Play football with me.,51
+1337,Play any pop channel f. m.,36
+1338,Alex how much you know about me.,12
+1339,Can I ask for the weather tomorrow?,13
+1340,Play my favorite podcast.,58
+1341,Start a new list,21
+1342,Check the new mail.,44
+1343,Activate the music station from the disco polo,36
+1344,Google Train Tickets to Warsaw,2
+1345,Check the new mail.,44
+1346,Playing Chess,51
+1347,Someone started to follow me on Twitter today.,27
+1348,The cork is quiet.,11
+1349,What is this book,26
+1350,Send an email to the people I have agreed to change the deadline.,33
+1351,I like this song.,43
+1352,Show the last post by Janka,44
+1353,Search for navigation,42
+1354,Make a coffee please.,56
+1355,What is the current price of Google?,4
+1356,Please download my podcast and play once.,58
+1357,Remember me to contact old friends with whom I have not talked for six months before they leave.,50
+1358,Change music to rock,28
+1359,Start the Express to Coffee.,56
+1360,Make your order as soon as possible.,3
+1361,How much is the population of New York,49
+1362,Add to my calendar a reminder of that day every year,50
+1363,Play the next program in Podcast,58
+1364,Please add my new email address to the contact list.,15
+1365,Is the right time for the place where I am?,0
+1366,Play a hundred one and three f. m. radio station,36
+1367,I'm going to sleep now,40
+1368,Can you shut the light?,31
+1369,Information about Lisa Ann,49
+1370,I want to listen to podcast.,58
+1371,As if you said the best.,26
+1372,Make sure there are no events in my calendar.,30
+1373,Play Sanah,45
+1374,Reply to email,33
+1375,What is scheduled for a meeting with the Cube at 4 a.m.,32
+1376,On which ocean is our continent.,49
+1377,Find a train ticket to Vrocławia,2
+1378,Turn off the light in the kitchen.,40
+1379,I have to add a new email to my contacts.,33
+1380,The next week will be rain.,13
+1381,I want jazz music to play.,45
+1382,Notify me for tomorrow's meeting at 10 a.m.,50
+1383,The First Nest,24
+1384,Add Michael and Jack to the Festival Calendar,50
+1385,Will it be a night,13
+1386,Please delete my list of favorite albums.,53
+1387,Search for information on the internet,12
+1388,I received an email from Paul.,44
+1389,I want to listen to this song.,45
+1390,How much does the allegro stock cost?,4
+1391,Tell me what I can do today to help my community,12
+1392,I don’t have enough money now to buy a Nintendo Switch or you can remove it from my Amazon wish list,53
+1393,What is the weather for this week?,13
+1394,I have an alarm for tomorrow.,23
+1395,Is there a step on my route?,11
+1396,I would like to hear some fun jokes.,25
+1397,I want more light.,18
+1398,Remove all dates,30
+1399,Publish my company on Twitter,47
+1400,Leave the message now,47
+1401,What is the month today,0
+1402,Negotiate,12
+1403,The sun shines beautifully or we will have such weather for the rest of the day.,13
+1404,Be more chill neda viszini,20
+1405,Stock prices go up or down.,4
+1406,Playing The Beatles,45
+1407,Check my emails for the name.,44
+1408,It is the best team in the world.,43
+1409,Give me more light.,18
+1410,Please tell me the day before the birthday of sin.,50
+1411,How much is Saturday in March?,0
+1412,for the fifth,0
+1413,Stop the audiobook,20
+1414,What are the climate conditions in this area?,49
+1415,Please play Shake It Off by Taylor Swift,45
+1416,What movie can I see tonight in the cinema?,6
+1417,Tell me if I got a new mail.,44
+1418,What will the weather be tomorrow?,13
+1419,What is the cover of the chair,49
+1420,Incorporate this smart plug,24
+1421,Add this song as the next song in the line.,45
+1422,Read what is on my list.,59
+1423,Give me the current value of the Taurons.,4
+1424,Play my rap hits from the 1990s,45
+1425,What's the weather in Nagoya,13
+1426,I have to set a reminder on March 15th.,50
+1427,"I like the songs, please leave it.",43
+1428,Add to my calendar dinner with Mary on Saturday,50
+1429,Please turn off the knot.,8
+1430,Find Jana Kowalski in contacts,17
+1431,Please give me information about Michael Jackson.,49
+1432,What was the interview time from yesterday’s mail?,44
+1433,Who is Facebook Live?,27
+1434,Please shake the light.,31
+1435,How many years is the mountain editing,49
+1436,Take a taxi on Monday afternoon.,54
+1437,Please book a taxi at 9 a.m.,54
+1438,Give them a show in these.,6
+1439,Order clothes to take me now.,54
+1440,Remove the alarm,52
+1441,Read the latest voting titles,22
+1442,What movies are playing in the cinema today?,55
+1443,Please check my social media and tell me what’s going on.,27
+1444,I feel happy on Facebook.,47
+1445,Are there any sports events tomorrow in Krakow?,6
+1446,Remove the first post on the list.,53
+1447,What to do for lunch,9
+1448,Disconnect my wifi,8
+1449,What are the lists available,59
+1450,Alexa start reading from the last session of the great gatsby book,20
+1451,What will the weather be this week?,13
+1452,I want him to remember my preferences and recommend things to me based on them when I ask about them.,12
+1453,I want tickets for a concert on Saturday night.,12
+1454,Can you order me clothes for me?,54
+1455,"If a pen cost four dollars and a book ten dollars, how much should I pay if I buy two pen and three books?",39
+1456,What is the highest peak in the world,49
+1457,Where to set the noise,29
+1458,Have a delivery.,3
+1459,What is the start time for my alarm I put on this weekend,23
+1460,I want coffee,56
+1461,Play last year's hits,45
+1462,Have you heard some good music recently?,12
+1463,Show my meeting next month.,32
+1464,How much does the dollar cost in pounds?,10
+1465,Turn off the light in the kitchen.,40
+1466,When the End of the World,12
+1467,What is on my list of things to do today?,59
+1468,set a reminder and tell me an hour before the meeting at lunch time,50
+1469,Open the audiobook,20
+1470,Do not play this song again.,7
+1471,Listen to Purple Haze,45
+1472,What causes osteoporosis,12
+1473,What are the restaurants in my area?,19
+1474,What is email leona?,17
+1475,Play the next,58
+1476,Shut the songs in this music.,28
+1477,What is the capital of California,49
+1478,How much is 2 plus 2,39
+1479,How does I.B.M.,4
+1480,I want to know something about this song.,57
+1481,Tips for preparing meals,9
+1482,Include my plug,24
+1483,Play Radio,36
+1484,Make a reminder for tomorrow’s meeting.,50
+1485,Make a pink light,1
+1486,Shadow the light,31
+1487,I want to listen to any of the songs that received the Grammy this year.,45
+1488,Please add my payday.,50
+1489,I had a meeting with George.,12
+1490,Please find the current radio station and play Karol Paciorek,36
+1491,What Day of the Week is Halloween,0
+1492,Remind me of the Friday meeting with Edk twenty-four hours earlier,50
+1493,The majority of celebrity,49
+1494,Where is the nearest family,19
+1495,Seventy,38
+1496,What is the chance of falling today?,13
+1497,What letters I asked,59
+1498,Please clean my calendar.,30
+1499,Please add a new list.,21
+1500,The time difference between the Great Britain and U.S.A.,38
+1501,Tell me about the Mass on Sunday at 11 a.m.,50
+1502,Please activate Radio Radio.,36
+1503,Enable the Dryer,34
+1504,What to prepare for dinner,9
+1505,Order my closest clothes.,54
+1506,Currency exchange rates,10
+1507,What is the weather in the kingdom?,13
+1508,I received an email from the afternoon.,44
+1509,Please select the first song from the iTunes Library.,45
+1510,I need a drink,56
+1511,Send me a reminder of my meeting with Tom on Friday.,50
+1512,Please post a podcast for me.,58
+1513,Delete the sound,46
+1514,Enable Radio,36
+1515,Play Christian music.,45
+1516,How to make a tacos,9
+1517,Where is the Public Library?,42
+1518,Can you create on the Pandora channel edits Bartosiewicz?,28
+1519,Confirm my awakening settings,23
+1520,Please turn off the light in the bathroom.,40
+1521,Reduce the noise,35
+1522,Send an email to Jack with thanks,33
+1523,Tell me what events are in my city today.,6
+1524,Start the game,51
+1525,Where is the tourist route near me?,19
+1526,I want to answer the email from Robert Kowalski.,33
+1527,How long will the night be in London in England?,0
+1528,A negative opinion about the company.,47
+1529,How long to cook the steak to be average blood,9
+1530,Ask people for an event in the calendar,50
+1531,Are you true,12
+1532,The Empire State Building,49
+1533,Get rid of all my planned events.,30
+1534,Remember the current accounts,50
+1535,Remove everything from my list of activities today,53
+1536,Add a meeting with the romance of the twenty-first on the seventh,50
+1537,Let me remember the meeting tomorrow at 6 a.m.,50
+1538,Repeat my last podcast.,58
+1539,Be your owner and never change your position.,51
+1540,What is the price of the dollar,10
+1541,economic affairs,22
+1542,Play the song of the time by Jim,45
+1543,Make a meeting between me and Jasiem tomorrow at 2 a.m.,50
+1544,Can you help me listen to the radio?,36
+1545,Find out if the table and the wave offer delivery,3
+1546,There is a food festival in this area.,6
+1547,Helping in Advertising to Customer Service,47
+1548,Time Now,0
+1549,The price of CCC is going up or down.,4
+1550,Send an email to the boss saying I’m going to be late.,33
+1551,What is the time in the Pacific Zone,0
+1552,Who are the developer,12
+1553,Enable FM Radio,36
+1554,Do you know when my order will come?,3
+1555,Do I have a mail from this broadcaster?,44
+1556,Silence for 2 hours,46
+1557,What is the biggest desk,26
+1558,Technology,12
+1559,Remove all events from the calendar.,30
+1560,Find a video from YouTube with Italian cuisine,9
+1561,Play Netflix on my p.s. four,36
+1562,Start the cross for us.,51
+1563,percentage of light,1
+1564,What has happened in the last two months,22
+1565,Olly I'm looking for fashion shows or you can find clothing stores in a kilometre radius,19
+1566,Delete the light,40
+1567,What's the best way to Olsztin,42
+1568,add email to jana novaka to my contacts jannovak monkey onet point pl,15
+1569,I will get home from here.,42
+1570,Hot topic,22
+1571,What is the event plan,32
+1572,Please set the light in the kitchen properly.,18
+1573,Today is someone’s birthday.,32
+1574,Where is the nearest zoo?,19
+1575,I like the songs of Christoph Zalevsky.,43
+1576,It will rain tomorrow.,13
+1577,Send a tweet with complaint,47
+1578,Find shopping centers and women's clothes shops in Krakow,19
+1579,Latest news from the area,22
+1580,It must be a taste.,9
+1581,Send Technical Information,22
+1582,Make an order for one pack of pasta do it as an order for a result.,16
+1583,Add red wine to your shopping list.,21
+1584,Brighten the light in the corridor,18
+1585,Say how many is three times four.,39
+1586,Remove this post from the list.,53
+1587,Olly Include the Express to Coffee and Make Coffee,56
+1588,Is it cheaper or more expensive to live?,13
+1589,Undercover light,18
+1590,Give me news from TVN.,22
+1591,Play my favorite song last year.,45
+1592,Play in Age of Empire,51
+1593,Remove all events from my calendar.,30
+1594,Play for me in the game Harry Potter and the Chamber of Secrets,51
+1595,Important Information About Home,59
+1596,What to hear olly,5
+1597,Give me the temperature.,13
+1598,How you have the name,12
+1599,Is it afternoon?,0
+1600,What is the current time in the Eastern Region?,0
+1601,Find a furniture store in my area.,19
+1602,Take a taxi for a half hour.,54
+1603,Tell me what are the best tourist attractions in America,19
+1604,Order a train ticket to Warsaw,2
+1605,Will it be nice this week?,13
+1606,News of the broken train,22
+1607,Can I listen to the radio in the bedroom?,36
+1608,Remember the meeting on Tuesday.,30
+1609,Write a tweet with a complaint,47
+1610,I have to tell you my day.,12
+1611,Where is the cinema in my area?,19
+1612,Remove the current list,53
+1613,My day was wonderful.,12
+1614,Write the light over your head.,31
+1615,What are the most important news now,22
+1616,Write my plan for today.,32
+1617,I got an email from Amazon today.,44
+1618,s.,45
+1619,Remember the oil exchange.,50
+1620,I got a new mail from Daniel.,44
+1621,Order a train ticket from Cracow to Cracow,2
+1622,Have I set the alarm to take the pills in the morning?,23
+1623,What you think,12
+1624,Play my favorite music now.,45
+1625,How old is Clint Eastwood?,49
+1626,Remember me an hour before meeting that I have them.,50
+1627,What jacket should I put on?,13
+1628,Best Rap Music,45
+1629,Can you remove this item from the list?,53
+1630,Check the weather in Gujarat,13
+1631,I have to plan a meeting with that person.,50
+1632,What shops are in my area?,19
+1633,Alexa Light to Seven,31
+1634,Set a reminder to print the documents on Tuesday morning.,50
+1635,Who wrote this song,57
+1636,I have to talk to mom.,12
+1637,Tomorrow is a rain day.,13
+1638,What is on your list now,59
+1639,Please play only sad songs in the music player,45
+1640,Play the latest podcast from the Foreign Department,58
+1641,Who is the Celebrity,49
+1642,What is the Mexican currency?,10
+1643,Remove the anniversary event from my calendar,30
+1644,Posts Tagged ‘cold pizza’ in papa johns,47
+1645,Who I meet today,32
+1646,Write to my boss that I will be delayed today because of a failure and apologize for missing the meeting.,33
+1647,Take a Tango Sufler,45
+1648,Songs from r. m. f. m.,36
+1649,Make home burstine lights at 6 a.m.,1
+1650,In which area this person is the best.,49
+1651,Where can I go tonight?,6
+1652,What in News,22
+1653,Tomorrow afternoon will be snow.,13
+1654,Order a pizza with pizza hut.,16
+1655,Give me a few tips about health.,12
+1656,I cancelled the order or passed.,3
+1657,Kung Fu Panda 3,55
+1658,Friends add an event to your calendar,50
+1659,"Today, after the fourth day, there is a new news.",44
+1660,Report on Cork,11
+1661,What a song is on the radio?,57
+1662,What time is in this city?,0
+1663,I hate how long the steps are.,12
+1664,Remove Remembrance,30
+1665,Activate Radio Now,36
+1666,What's the most funny joke in history?,25
+1667,Should I wear sandals or full shoes with socks?,13
+1668,Make it clearer in peace.,18
+1669,During the period between February 1st and March 6th I have a meeting,32
+1670,Meeting Friday at 3 a.m.,50
+1671,The train goes to the destination.,42
+1672,New alarm at 6am.,48
+1673,Cook a portion of oxygen.,9
+1674,Add to the list,21
+1675,Please play folk music.,45
+1676,How to get to the shopping center,42
+1677,Open f. m.,36
+1678,Check my social networks.,27
+1679,Play whatever you do.,45
+1680,Twitter to Wolffskin that they've finished their size too quickly,47
+1681,Please give me the winning lottery numbers for this weekend.,12
+1682,Repeat the event in the calendar with others,50
+1683,This kind of confusion,12
+1684,Where the train will go,42
+1685,Add broccoli to my shopping list,21
+1686,What are the plans for today from the 14th to the 16th,32
+1687,Let someone connect the radio.,36
+1688,Can you contact the samsung and tell them that my washing machine is great?,47
+1689,Find the nearest clothes.,54
+1690,What are my next three events?,32
+1691,What time is now in London?,0
+1692,Include classic hits,36
+1693,Olly what new dramas are coming to the movies this weekend,55
+1694,Give the regulation to,9
+1695,How Much Does Apple Stock Cost,4
+1696,Or something else remains on the list.,59
+1697,How to make a lasagne,9
+1698,Play the latest podcast by Karola Paciorka,58
+1699,A dog hunted me.,12
+1700,I primarily pay attention,13
+1701,Remember my meeting.,50
+1702,Send an email to Jan,33
+1703,What time is it in London?,0
+1704,Next button,58
+1705,in my calendar remove all golf events for this month,30
+1706,Jay’s phone number,17
+1707,Remind me of the event of a visit to the dentist that I have in two weeks,50
+1708,Tell me the most funny joke ever told.,25
+1709,Direction to Disney Land,42
+1710,Check my mail if I have any new emails from yoga.,44
+1711,Please send an email to my mother.,33
+1712,Definition and definition of the word.,26
+1713,Order a taxi from here to the airport.,54
+1714,switch to a hundred one and three f. m.,36
+1715,In the last 15 minutes there have been some emails.,44
+1716,Remove the alarm I set up.,52
+1717,List of alarms,23
+1718,Get rid of the lists,53
+1719,How much is the dollar in relation to the euro?,10
+1720,Show my meetings tomorrow morning.,32
+1721,My day was very hard.,12
+1722,Check my mail.,44
+1723,Tell me about Mary S.,17
+1724,"Can you turn the light, please?",18
+1725,Weather disasters in the U.S.,50
+1726,Remove my meeting today at the second afternoon.,30
+1727,Do I need my coats in the afternoon?,13
+1728,Open the album and leave the photo name,47
+1729,The best car model,12
+1730,Leave,36
+1731,I want to wash at eight in the evening make a reminder,50
+1732,What reminders I put on,32
+1733,I want to know today’s forecast.,13
+1734,What is the exchange rate between gold and yen?,10
+1735,What is the definition of actuality?,26
+1736,Set a cyclic reminder for this event in the calendar,50
+1737,Radio Zet,36
+1738,Kim Kardashian Dress Conversy,49
+1739,What is the movement on the roads?,11
+1740,Remembrance of Meeting,50
+1741,New List,21
+1742,Remove all events,30
+1743,What is the butter replacement?,9
+1744,Is there any post from my friend Michael on the page?,27
+1745,Don’t let me forget to buy a gift for my sister.,50
+1746,Make a meeting with the topic of terrorism in the next free day,50
+1747,I like music,43
+1748,Create a mail to your partner,33
+1749,Enable the Dryer,34
+1750,What is the weather forecast for today,13
+1751,How many phone numbers do I have to bark?,17
+1752,Send an email to Tomka on Tim Monkey hotmail dot com,33
+1753,What is happening in social media?,27
+1754,Play a good song from my playlist.,45
+1755,Cooking,9
+1756,Please send a mail to the list of family and friends.,33
+1757,Don't wake me tomorrow,52
+1758,Please play Shape of You by Ed Sheeran,45
+1759,Remove this light.,31
+1760,Adjust the pressure,46
+1761,Where are the Table Mountains,49
+1762,Remember when I will be in the library to create a new library card.,50
+1763,Play all songs randomly,45
+1764,Please add sugar to my list of foods.,21
+1765,Give the Euro Dollar,10
+1766,Play scrabble with me.,51
+1767,Play my playlist please.,45
+1768,Do I have more contacts with women or men?,17
+1769,20th April is my brother’s birthday.,50
+1770,I don’t want any alarms.,52
+1771,What is the latest information,22
+1772,Show me the alarm.,23
+1773,Order a Yellow Taxi,54
+1774,Play music now.,45
+1775,Remove the post from my list.,53
+1776,Set the first week of June as a holiday in my calendar,50
+1777,What are my plannings,32
+1778,Find a jazz for me.,45
+1779,I have a sales meeting today.,32
+1780,The Old Man and the Sea,20
+1781,What time is to go to the theater?,42
+1782,Check out new emails from photo,44
+1783,What are hot topics on social media,27
+1784,How to Make Spaghetti from Sugar,9
+1785,TVN News Twenty Four,22
+1786,How to describe your credit card,26
+1787,Add a watch to your shopping list.,21
+1788,Tell me what clothing stores are in the light of ten kilometers from me.,19
+1789,Apple says the iPhone doesn’t work,47
+1790,Can you post my last selfie on your Facebook account?,47
+1791,I ordered something to remember.,32
+1792,Currency exchange rate for today for US dollar to Japanese yen,10
+1793,Make a coffee,56
+1794,Can you find my latest news from a source that I usually don’t use?,22
+1795,What is the hour,0
+1796,Where was Will Ferrell seen last night?,12
+1797,What is in the radio,57
+1798,Give nine plus two,39
+1799,Check the definition of the word.,26
+1800,What are the latest news of Twenty Four?,22
+1801,See which clients will attend the meeting.,50
+1802,The weather was ugly today.,12
+1803,What is Emilia Service Number?,17
+1804,What is the exchange rate of the Swedish crown and gold,10
+1805,Play in the warcats,51
+1806,This is from here,53
+1807,What is on my playlist,59
+1808,Send an email to the Regional Vice President,33
+1809,Can you remember my next meeting with the boss an hour before his date?,50
+1810,I have to send this email now.,33
+1811,Download all podcasts,58
+1812,Do I need a jacket?,13
+1813,Find the recipe for food in which I use the ingredients in my list of purchases,9
+1814,change the noise settings to negative alexa,29
+1815,Playing Jazz by Sanah,45
+1816,Please check my email.,44
+1817,Light to the middle level,40
+1818,Play with me,51
+1819,You know the title of the song that is flying.,57
+1820,Send an email to Irka with a request about the opening hours of the office,33
+1821,Please open the game I want to play with you,51
+1822,Olly Changes the Color of Light,1
+1823,I love jazz and I don’t tolerate disco.,43
+1824,Can I order delivery from this restaurant?,3
+1825,Please keep my alarm at 5 a.m.,48
+1826,Remove the alarm,52
+1827,Tell me a funny joke.,25
+1828,Where is the Null South,49
+1829,I want to go to the theater today.,12
+1830,Remove events from the calendar,30
+1831,The name of the movie is music.,57
+1832,Remember me two days before my wife's birthday,50
+1833,Olly Play Jazz Music,45
+1834,Write an email to the jurk about the meeting,33
+1835,What is on the first page of the newspaper?,22
+1836,Remove this position.,53
+1837,Show me the distribution of trains to the main Krakow,42
+1838,Please remind me of tomorrow.,50
+1839,Delete the Nest,8
+1840,Turn off the light in my bedroom.,40
+1841,What is the time in Chicago,0
+1842,How many hours are between my place of residence and New York City?,38
+1843,I ate as soon as I got up.,12
+1844,Today is the Sunny Day of Truth,13
+1845,cannot translate,12
+1846,New news about flashes,44
+1847,Play the next part of the podcast,58
+1848,Information about the song,57
+1849,Take what you can in Giuseppe,3
+1850,Do you know what the weather will be?,13
+1851,Play Bob Dylan,45
+1852,What is on my list of things to do?,59
+1853,Both young drivers and young drivers who have recently received a driving license are more likely to have car accidents than other drivers because they lack experience to drive safely according to the research experience behind the wheel is the main factor reducing the number of road accidents and young drivers drive vehicles safer when next to sit a more experienced driver,6
+1854,Brighten the lighting,18
+1855,What podcasts are on top today?,58
+1856,The Day of God's Birth this year,0
+1857,How big is Alaska?,49
+1858,What is planned for today in my calendar,32
+1859,Today I was looking for my phone everywhere and I couldn't find it.,12
+1860,Please note the currency rate.,10
+1861,Write the light in this way is not good.,18
+1862,What is there now in the vicinity of Walmart,11
+1863,What is Vogue Today?,22
+1864,More light please.,18
+1865,Where are the pyramids?,49
+1866,Is there someone I know in this month?,17
+1867,Who won the presidential election this year?,49
+1868,The price of the dollar has risen.,10
+1869,What is the day today,32
+1870,I'm going to see you tomorrow at 3 a.m.,50
+1871,add the birthday reception Janka for tomorrow at 2 a.m. in Christmas six to my calendar,50
+1872,More information about this event,32
+1873,Reply to the email I received,33
+1874,Where is New Zealand,49
+1875,Vacation Destinations,12
+1876,Can you turn off the light?,40
+1877,Please show me what alarms are enabled.,23
+1878,Check the weather here.,13
+1879,Show me news about the environment.,22
+1880,Are there any new news about the election?,22
+1881,Add my Express to Coffee,56
+1882,Alexa Leave a Song But Jazz,45
+1883,Change the light to a different shade,1
+1884,Current time in,0
+1885,If there is the sunrise in Stockholm which hour is in Okinawa,38
+1886,Open and play music from my playlist to exercise,45
+1887,Include the next,58
+1888,Remove My Task List,53
+1889,What is the time in Las Vegas,0
+1890,What is the weather,13
+1891,The mail from Bartka had an attachment.,44
+1892,Make a new list for me.,21
+1893,Can you remind me to remove the waste on Tuesday?,50
+1894,scis the noise,35
+1895,I need to set an alarm for tomorrow at 5:30 a.m.,48
+1896,Who will deliver faster,3
+1897,How old is Emma Watson?,49
+1898,How much is twice twice,39
+1899,Add a new mail to my contacts.,15
+1900,Yaro,43
+1901,Find a list,59
+1902,Find Podcasts on Men's Problems,58
+1903,What's Happening This Weekend,6
+1904,You can send me a piece of radio.,36
+1905,Drive your car and bring your friends.,12
+1906,Tell me about events such as dog exhibitions in my town,6
+1907,Tell me when you write a book.,44
+1908,How does my Facebook table look?,27
+1909,Enable the Dryer,34
+1910,What are the main news on TVN?,22
+1911,Show me an hour in this time zone.,0
+1912,I hardly hear you,14
+1913,Please go to the next section of this podcast.,58
+1914,"On Friday, visit the dentist at 3:00 p.m.",50
+1915,Are you happy,12
+1916,Social Media,27
+1917,The next train to the altar.,42
+1918,Play random music,45
+1919,Title Song,57
+1920,Give me the weather in Barcelona for two days from now,13
+1921,Turn the dust now and wash in the room.,34
+1922,Let us listen to a hundred one and three f. m.,36
+1923,The Birthday of Arnold Schwarzenegger,49
+1924,Give me a smartphone description.,26
+1925,Olly Clean the List,53
+1926,What is the forecast for Saturday?,13
+1927,Keep the speakers off,46
+1928,When the Cybulsky Divine died,49
+1929,What I wrote to Caroline in my last mail,44
+1930,What is the road and four?,11
+1931,The first train from the coast.,42
+1932,What is the weather in Katowice?,13
+1933,Can you activate the inspection?,20
+1934,Play Radio with Continuous Songs,36
+1935,Open a reminder of the next week meeting of managers on Tuesday,50
+1936,What is the fifth day,0
+1937,The train goes to the buried.,42
+1938,Play my most frequently viewed podcast,58
+1939,Find information about today's events,22
+1940,It is the seventh morning of the Pacific time.,38
+1941,Show me the headlines,22
+1942,Ask for the floor tonight.,13
+1943,Give me an hour of events.,32
+1944,What is the capital of Kazakhstan,49
+1945,Separate six in two parts.,39
+1946,Can you write an email to the Czech Republic?,33
+1947,Press for 15 minutes.,46
+1948,add the steel to my mail contacts with the address in the roof,15
+1949,Remove events from the calendar,30
+1950,Change all the lights in the house into blue.,1
+1951,Video Games,51
+1952,Remove my next activity.,30
+1953,Give the RISOTTO,9
+1954,Play a song but jazz.,45
+1955,Tell me what is the percentage chance of the falls today,13
+1956,I've had a problem with my burger you can swallow to burger king,47
+1957,I want a cheesburger.,9
+1958,Lunch with Michael.,50
+1959,The most frequently checked list,59
+1960,Go to the next podcast.,58
+1961,I am very happy to get tickets for the concert today.,12
+1962,Please remove my alarm.,52
+1963,Can you connect music?,45
+1964,Check out outlook,44
+1965,I want my robot to feed my dog when he doesn’t have me at home,12
+1966,Tell me about the sweat.,22
+1967,Renew the series,58
+1968,The next Tuesday will be sunny.,13
+1969,Tweet to McDonald's that they have terrible series,47
+1970,A New Insta,27
+1971,When I'm on the next visit to the doctor,32
+1972,Order a two-part cubic of wings in honey-mustard sauce with spices without frites and sprites,16
+1973,Remember me to take the medicine at nine in the morning.,50
+1974,Are there new messages in my box?,44
+1975,Check all emails from Amazon.,44
+1976,Give me the route today.,42
+1977,Where in Warsaw is this meeting on Friday 13th,32
+1978,Play the music of Gregor Cugowski,45
+1979,send me an alert for an hour before my next meeting,50
+1980,Start Drying,34
+1981,How long will my lunch last on Tuesday?,32
+1982,Good first impression,12
+1983,There are no alarms today.,23
+1984,Open the silence mode until I get home from work.,46
+1985,Turn off the light in the room.,40
+1986,A new alarm.,48
+1987,Add service contacts to my contact list,21
+1988,describe the subject xy,26
+1989,Alarm at 6:30 a.m.,48
+1990,I want a third alarm today.,48
+1991,Please remove this event.,30
+1992,Make a shopping list please.,21
+1993,Play in Race,51
+1994,Do you know mathematics?,39
+1995,Where is the pharmacy in the sand,19
+1996,What I like today,12
+1997,Will it be less than 10 degrees in Lublin?,13
+1998,Give me the weather forecast this week.,13
+1999,PUC PUC,25
+2000,Remove payments from my shopping list,53
+2001,New gadgets,12
+2002,See if I have any new emails from my father.,44
+2003,Twitter post as follows very bad follow up by a. b. c. company not satisfied on my account,47
+2004,Show me the most important moments of the game.,22
+2005,Buy Pizza Hut,16
+2006,Weather report last week,13
+2007,Should I take a parasol today?,13
+2008,Tell me how to make hoped peppers.,9
+2009,The Super Mario,51
+2010,Latest News on International Women's Day,22
+2011,New Event,50
+2012,I am free at sixteen.,32
+2013,Check my job.,44
+2014,Show the date,0
+2015,You can play the love playlist.,45
+2016,How to Cook Twelve Oasis Cakes,9
+2017,Do I need a sweter today?,13
+2018,Please order me a taxi.,54
+2019,Great song to listen,43
+2020,Go to the next warrior.,58
+2021,What are popular articles about the time in the electoral newspaper,22
+2022,Show me the latest emails.,44
+2023,Allarm for Remembrance,48
+2024,Play the most popular song of the artist,45
+2025,cancel all of my meetings after the third afternoon today and inform me about the details,30
+2026,Table with overwhelmed legs,49
+2027,Create an email,33
+2028,Play the next song,45
+2029,Alexa remove dinner with a wheat from my calendar,30
+2030,How much is 10 percent of $40?,39
+2031,order for output,16
+2032,What time is in Paris?,0
+2033,What you think,43
+2034,What appeared in my receiver box since we last checked,44
+2035,Do I have any new emails in the receiver box today?,44
+2036,Tell me a good joke.,25
+2037,How much is one plus one,39
+2038,Importance,26
+2039,Order me a first-class train ticket.,2
+2040,Remember I have a 30th birthday reception.,50
+2041,You can set all the lights in your home on the blue.,1
+2042,What is the weather today in Spring,13
+2043,I want to make a list of purchases this week.,21
+2044,Remind me of this,50
+2045,What is the content of the email from mom 30 minutes ago,44
+2046,Play the Criminatorium,58
+2047,How much the shares cost,4
+2048,Are there any morning shows available?,32
+2049,Let me be happy on the façade.,47
+2050,Please send me a mail with a message that I am busy tomorrow.,33
+2051,Please resume my audio book.,20
+2052,Current weather forecast,13
+2053,Tell me when you hear about France.,22
+2054,Start the playlist,45
+2055,Add my positive opinion to this work.,43
+2056,Turn off the lights.,40
+2057,Remove the speaker,46
+2058,Do I have any plans?,32
+2059,Can you introduce Robert Rozenowski?,49
+2060,Listen to the hunting for the red October.,20
+2061,Tell me when Obama was awake.,49
+2062,What is a good Iranian film from the twelve-year sixteen,55
+2063,Remove the latest alarm,52
+2064,Tell me about local events.,6
+2065,How long will it take to get to the airport?,42
+2066,change the noise to,29
+2067,Do you know that joke?,25
+2068,How to make a pizza,9
+2069,Read My Food List,59
+2070,I need to buy fuel.,12
+2071,Find information about cars,22
+2072,send an email to juanpedro bear gmail point com,33
+2073,Tell me about the weather this week.,13
+2074,What better conducts the heat of a methyl garnek or garnek with a iron bottom,9
+2075,Where is Artur Dürman,49
+2076,Tell me what the date is today.,0
+2077,Can you increase clarity in the room?,18
+2078,I have to check my list.,59
+2079,Remind me of the time of my wedding to get a gift.,50
+2080,Repeat the child by calling to him,20
+2081,Playing the History of Rome,20
+2082,Delete the light,40
+2083,Add alarm to tomorrow morning at 6 a.m.,48
+2084,Olly order me a ticket to Paris this weekend at Eurostar,2
+2085,Please find the number to Janus and pick it up.,17
+2086,Can you exchange my meetings today?,32
+2087,Remove the alarm,52
+2088,Cancel everything in my calendar.,30
+2089,News from the business world.,22
+2090,How many years are you,12
+2091,Set my calendar to remind you to make shopping every Friday,50
+2092,Please play this playback in the audio book.,20
+2093,Remember the 13th for lunch with Daniel.,50
+2094,Pink has a new child.,49
+2095,What is the weather for this week?,13
+2096,Send an email to Natalie for her birthday.,33
+2097,The Bolshoi Theatre,49
+2098,Record the event from the 5th to the 6th afternoon of March 18th,50
+2099,Please turn off the light.,40
+2100,Add the detergent to the list of things I need to buy.,21
+2101,Olly Give Popular News TVN Twenty Four,22
+2102,Please set up the notification on the 23th of October for a meeting with my colleague,50
+2103,Set the default sound,29
+2104,Do they bring home?,3
+2105,Remind me of important meetings with the boss in the week,50
+2106,Give me the phone number.,17
+2107,Brightness of light,18
+2108,I have a new mail from Tadeus.,44
+2109,Alex send a new email.,33
+2110,I love this song.,43
+2111,Can you set an express for coffee to make me coffee at 7 a.m.,56
+2112,I'd like to ask how many angels can dance on the shell.,12
+2113,Should I take my sun glasses today?,13
+2114,I didn't get the product on time send tweet to aldi,47
+2115,Leave me Bohemian Raphsody,45
+2116,Can you create a sugar-free diet for me and create a list of ingredients,12
+2117,The protest took place last night in the castle square.,22
+2118,What hair remove donald trump?,49
+2119,What movie is in the movies that are not hopeless,55
+2120,What is the capital of Nigeria,49
+2121,Will there be storms today?,13
+2122,Please set a meeting at lunch at 12 a.m. on every Wednesday in March.,50
+2123,The song of Shakira,57
+2124,Where is Shimon,17
+2125,Open and play Jingle Bells,45
+2126,Do you know any jokes?,25
+2127,I'm bad that I lost my baggage.,47
+2128,I will never hear this song again.,7
+2129,Get me on the price of bitcoin.,22
+2130,Enter the next week lunch in the calendar.,50
+2131,Please inform me about the sports news.,22
+2132,Search the town,49
+2133,Remember to wash the windows.,50
+2134,Who was George Eliot?,49
+2135,When the Easter comes,0
+2136,Please show me the list I have.,59
+2137,How to Make a Christmas Feast in 5 Steps,9
+2138,Check the number of inhabitants.,49
+2139,Check the last list of things to do.,59
+2140,I want to order Chinese food.,16
+2141,Olly Include Messages,22
+2142,What is the twenty-third day of this month?,0
+2143,What is Mango,26
+2144,A description of the TV circuit.,26
+2145,Speak Silent,14
+2146,I want to hear the latest news from the world today.,22
+2147,Give me a lot of speakers.,45
+2148,count two hundred divided into ten,39
+2149,Remove the wemo,8
+2150,Set a reminder to change the oil next month,50
+2151,The biography of Jackie Kennedy,20
+2152,I want to meet until the third.,50
+2153,What are the events next week,32
+2154,How many torrents were this month?,12
+2155,The temperature will be the same or it will be cold.,13
+2156,Continue to read,20
+2157,The train to Gdańsk,42
+2158,The last film of Will Smith.,49
+2159,Show the last mail,44
+2160,Play some jazz music.,45
+2161,What time is in Paris?,0
+2162,Enable the program to radio,36
+2163,Can you tell me about the kingdom of animals in the equatorial forest?,12
+2164,This is a good mouse please enter the file.,43
+2165,Remove the next event,30
+2166,Are there any meetings on next Wednesday?,32
+2167,Leave My Favorite,45
+2168,Please remove the alarm set on the day at 9 a.m.,52
+2169,Make me coffee without sweets.,56
+2170,When I should walk,13
+2171,Can you tell the Amazon that their new phone is rubbish?,47
+2172,It will rain at the 13th.,13
+2173,Open the music app and leave me a song.,45
+2174,What I've already put on the list,59
+2175,I want coffee every day.,56
+2176,Find a Samsung TV description,26
+2177,Make me a cup of coffee with cream with the taste of salted carmel.,56
+2178,Music by The Beatles,45
+2179,Renew my box and tell me about new emails.,44
+2180,Can you track my emotions based on what I say?,12
+2181,Show me a podcast with the best reviews.,58
+2182,Get a podcast from my library.,58
+2183,Do not throw rock metal.,7
+2184,I want to record music or you can do it for me,43
+2185,Show me the latest emails from Amazon,44
+2186,Play Reggae Music,45
+2187,Help me make my kitchen list.,21
+2188,Check the new email from Andrew.,44
+2189,Please include my cup in coffee.,56
+2190,Play the song I have that power.,45
+2191,What is the currency exchange rate,10
+2192,Play the Game Circle and Cross,51
+2193,Film Academy Awards,22
+2194,What is the latest fox news,22
+2195,Birthday,50
+2196,What will happen to me if you are a sensitive being here?,12
+2197,What is the geology of this location?,12
+2198,How Much Does Hulk Hogan Grow?,49
+2199,How to buy a ticket from Papa John's,3
+2200,Can you activate classical music for me?,45
+2201,Start the game with me.,51
+2202,Play a random love audio book,20
+2203,Remove from my calendar the meeting at 9 a.m.,30
+2204,Where is the car,14
+2205,Proclamate the snow,13
+2206,Give me a painting exhibition in three cities,6
+2207,Play the Champagne,45
+2208,where the alarm is set,23
+2209,Cancel plans to withdraw parents from the airport,30
+2210,Activate the Drying Work,34
+2211,Remove the Smart Nest,8
+2212,What is the time in another city?,0
+2213,Play a song and you are also very authorship male play,45
+2214,Cancel all meetings.,30
+2215,Podcast Impossible Play this,58
+2216,Reply to email,33
+2217,Slow down the speaker.,35
+2218,Tell me about the latest environmental news.,22
+2219,Please check the latest correspondence from this sender.,44
+2220,What is the plan for today?,32
+2221,Read the audio book for me,20
+2222,Tell me about the positions on the list.,59
+2223,Pink is what we need.,1
+2224,Duma and Prejudice,20
+2225,Explanation of the work,57
+2226,What are my present lists?,59
+2227,Today is the Day of the Holy Father.,32
+2228,Listen to Radio,36
+2229,Write everything left in my question.,59
+2230,Remove the last post,53
+2231,Please send a tweet to pizza hut that I'm waiting for delivery number and is not happy,47
+2232,Extended products on the last market,47
+2233,Clean my calendar.,30
+2234,Start the podcast I started yesterday night.,58
+2235,The state in the United States is the least susceptible to tornado.,49
+2236,Give more stock prices,4
+2237,Can you order me clothes for tomorrow?,54
+2238,Remind me every Monday to remove waste.,50
+2239,Add a new email address to your contacts,15
+2240,Can you stop speaking please?,46
+2241,Reply to the last email,33
+2242,Alarm at 8 a.m.,48
+2243,Remove My List,53
+2244,Show me my events.,32
+2245,Enable the Dryer,34
+2246,New meeting add a cup and melinda as participants,50
+2247,What is a good joke,25
+2248,Play the song by Sanah,45
+2249,Turn off later.,14
+2250,"I have a meeting on Saturday, March 25th.",32
+2251,Check the location and information about Mount Rushmore,49
+2252,What is the weather today,13
+2253,Include the playlist I recorded as rock music,45
+2254,Weekly Weather Forecast,13
+2255,Please confirm whether Leonardo is married.,49
+2256,Ticket to Train,2
+2257,Add it to the list.,21
+2258,Remove Tuesday alarm at 9 a.m.,52
+2259,What Happened in Walking Dead,22
+2260,Tell me what the weather will be for the next few weeks.,44
+2261,Annie has sent me a new mail.,44
+2262,Turn off the light please.,40
+2263,Please tell me what the latest news is.,22
+2264,Play music,45
+2265,I have to buy a gift which shops are in the radius of a kilometer,19
+2266,I have received a mail with a mail number.,44
+2267,I left the light in the garage.,40
+2268,What is the temperature in the seals?,49
+2269,I have a new mail.,44
+2270,Start Impossible,58
+2271,Show me the latest news.,22
+2272,Tell me about the pill.,49
+2273,Add it to my calendar.,50
+2274,Remove Birthday from the Calendar,30
+2275,Start my playlist on open f. m.,36
+2276,Give me all available lists.,59
+2277,Remove the next planned meeting.,30
+2278,Remind me of the birthday of Renata twenty-four hours earlier,50
+2279,Do I remember to set an alarm reminding of my next visit to the doctor?,23
+2280,Check my list of things to do.,59
+2281,What is my next reminder?,32
+2282,I want you to play a podcast.,58
+2283,Can I put my sandals today?,13
+2284,Wake me up at 6 a.m. on Thursday so that I have time to meet.,50
+2285,Olly cancell all alarms before football training,52
+2286,What new emails,44
+2287,Send an email to the budget meeting,33
+2288,I can’t tolerate that song.,7
+2289,Please send an email to Silvia about tomorrow’s meeting.,33
+2290,Show me the way to my home.,42
+2291,What information for today,22
+2292,Alarm at 6 a.m.,48
+2293,Play music from the year of a thousand nine hundred nine to the year of two thousand deltete,45
+2294,What is the cork now,11
+2295,Order a pizza for you.,16
+2296,Write a tweet complaining about,47
+2297,Which movie is most valued,55
+2298,As it is at the court today.,13
+2299,Dryer in the corridor,34
+2300,Start the next section.,58
+2301,Title,57
+2302,What is the meaning of the universe?,49
+2303,Play your favorite songs,45
+2304,What is Marcin Dorothy’s Hobby,49
+2305,When it will rain again,13
+2306,What will the weather be in Katowice today?,13
+2307,Tell me how to make clothes.,9
+2308,What is the most current exchange rate in China?,10
+2309,Call for food.,16
+2310,How far is the sun?,49
+2311,Please check if there are new emails.,44
+2312,Find a Chocolate Cake Recipe,9
+2313,Can you tell me I'm busy tomorrow at 2 a.m.,50
+2314,Tell us what stores are nearby.,19
+2315,If this is a nice song please write it for me.,43
+2316,Posted on Facebook Hello to Everyone,47
+2317,Drink coffee at 6 a.m.,56
+2318,Find the email to the link and add it to my contact list,15
+2319,hello olly please tell me what the song is now flying,57
+2320,What will the weather be today?,13
+2321,What are the results of the upcoming U.S. elections?,22
+2322,Wake me up,48
+2323,Remind me of,50
+2324,What I Planned This Week,32
+2325,Send an email to Jan asking him what time he responds to the meeting.,33
+2326,Tell me where the snow is.,12
+2327,Remember me to check the bull at the sixth.,50
+2328,Information about recent events,32
+2329,Show me my plan for this afternoon.,32
+2330,Tomorrow’s temperature will be high.,13
+2331,The Best Recipe for Al Dente,9
+2332,Please play orange,45
+2333,Find songs from my music playlist,45
+2334,Change the color of light,1
+2335,Send a report to the consumer service,47
+2336,The bark reacted.,44
+2337,Please rate the current song for five stars.,43
+2338,What is the weather forecast tomorrow?,13
+2339,Why the shells are big,49
+2340,Remove the meeting with Jeremy Adamsky from my calendar,30
+2341,What groups are in our contacts?,59
+2342,Are there any coming events?,32
+2343,Why Change Is Round,12
+2344,Remembrance of the event on Tuesday,50
+2345,I want a cake from a local bakery.,21
+2346,Remove the position,53
+2347,It will rain this week.,13
+2348,Two balls down for the ball.,47
+2349,Trump will visit Russia soon.,22
+2350,What is the weather forecast for this week?,13
+2351,What I have in the calendar,32
+2352,Is this the truth about that day?,32
+2353,Check the definition of the word.,26
+2354,What I have to do this week,32
+2355,Do not make noise until the morning.,46
+2356,Reply to email,33
+2357,Please send me a new email to the address.,33
+2358,Love,12
+2359,How many minutes do I have to wait to take my food from the golden dragon?,3
+2360,Is there something interesting about this weekend?,6
+2361,Please include my cup in coffee.,56
+2362,Turn off the light on the veranda.,40
+2363,Change the light into pink color.,1
+2364,Who is the Prime Minister of Britain?,49
+2365,I want a soup for lunch order rosol from Jimmy's restaurant.,16
+2366,Play something from the fun album of Christoph Zalevsky,45
+2367,Find funny jokes.,25
+2368,Check the gmaila,44
+2369,How long to cook eggs?,9
+2370,Keep your opinion about creation,43
+2371,Tell me what street traffic is.,11
+2372,Give me some good sounds.,45
+2373,Show me my last social media activity.,27
+2374,Set the route,49
+2375,Reply to the email of Janka and write that I will not come tonight.,33
+2376,How to cook chicken in butter,9
+2377,Alarm for tomorrow at 6 a.m.,48
+2378,Cancel the next meeting,30
+2379,TV News on Migrants,22
+2380,He wants to hear a joke.,25
+2381,Oly tell me a joke.,25
+2382,I helped the poor olly today.,12
+2383,What is data,0
+2384,What is a chair,26
+2385,Add a bark to the contact list,21
+2386,Turn the light into the kitchen.,41
+2387,Add $5 to my expenditure list,21
+2388,What happens after the first and before the third afternoon?,32
+2389,Review of The Beatles,20
+2390,Siri open Twitter and tweet the potus ssi,47
+2391,Enable the Dryer,34
+2392,What is missing in the journal,59
+2393,Turn the alarm on the third thirty afternoon today.,48
+2394,I wish you saw,1
+2395,Turn off the speaker’s vibration,46
+2396,Order me clothes,54
+2397,I want to listen to country music.,45
+2398,Turn off the light in the bathroom.,40
+2399,Are you wise,12
+2400,What is information from the new source?,22
+2401,twice twice twice,39
+2402,Tweet a complaint to samsung,47
+2403,I have a meeting in the south today.,50
+2404,How many memories,32
+2405,Remove the list of older pieces.,53
+2406,Check my new emails and tell me what they are about.,44
+2407,Today it falls,13
+2408,Play audio from the first.,20
+2409,Silence,46
+2410,Give me a list of tasks,32
+2411,I need to send an email to Orange about my problems with the service,33
+2412,Remove my task list for this week.,53
+2413,I just washed my car.,12
+2414,Show a biography or a biography,49
+2415,Who Called Me Last,17
+2416,Can you order me food?,16
+2417,Show the content of my list.,59
+2418,List the positions in my task list,59
+2419,Add a Led Zeppelin,45
+2420,Reply to Janka email,33
+2421,Remember this week.,50
+2422,Start the rumb,34
+2423,Can you remind me that I ordered an indian for three weeks before Thanksgiving?,50
+2424,The fastest route to the plate,42
+2425,Oly show me my alarms,23
+2426,The first film of Morgana Freeman,49
+2427,Please know that I had a meeting with sin today.,12
+2428,The day of the week is March 15th.,0
+2429,How many years are you,12
+2430,Planning a meeting with that person.,50
+2431,hello google leave my fooled playlist from apki gaana,45
+2432,Start the game and play with me.,51
+2433,Where is Campino National Park?,49
+2434,Can you send an email to,33
+2435,Plan for Tomorrow,32
+2436,Please make me a cup of coffee.,56
+2437,Read my shopping list.,59
+2438,What time is in the central time zone?,0
+2439,Change the station to a hundred one and three f. m.,36
+2440,Mathematics,12
+2441,How the day passed today,12
+2442,Find a Recipe for Sharlot,9
+2443,What is the nine square element?,39
+2444,Increase clarity,18
+2445,Play Red as a Jam Tree,45
+2446,What color is the pita?,49
+2447,Tomorrow’s temperature will be high.,13
+2448,Remove all events from my calendar.,30
+2449,Remove the wemo,8
+2450,What do you know about the Fringe Festival in Edinburgh next year,12
+2451,Please note that the service is delayed.,47
+2452,What are the new news for today?,22
+2453,Latest news from Super Express,22
+2454,Alex change the radio station.,36
+2455,What is the phone number to the radio taxi is it in my contacts,17
+2456,"Alex, give me the latest information.",22
+2457,The new mail,44
+2458,Tweet to samsung and ask them to stop killing people with their products.,47
+2459,What Turbulence Means,26
+2460,Add the playlist to the current playlist,43
+2461,I get to the sturbs as soon as possible.,42
+2462,Give me an hour in Los Angeles,0
+2463,Write my opinion about the song of Adele,43
+2464,Incorporate My Headsets to Google,14
+2465,Tell me everything you know about the lens.,49
+2466,The podcast I heard yesterday.,58
+2467,Where is Tom's wedding?,32
+2468,The Difference Between the Roman and the Gregorian Calendar,49
+2469,Please set up the wake up for the next Friday at sixth and thirty in the morning.,48
+2470,Tweet to the ward and tell them they’re to the fool.,47
+2471,I want to go on the radio at a hundred one and three f. m.,36
+2472,Are there any new mail?,44
+2473,What a meeting I have today,32
+2474,Please enter the event in my calendar and mark it as a cyclic event.,50
+2475,What is the definition of eternal word,26
+2476,I have my clothing list.,59
+2477,Daily News,22
+2478,Add a reminder of the meeting on Sunday with my tests,50
+2479,Street movement,11
+2480,Anyone commented on my status.,27
+2481,Leave a complaint on the series,47
+2482,How to Make a Sweatshirt,9
+2483,What teams are playing in the Extras today?,22
+2484,Continue to inspect,20
+2485,Play the audio book ahead,20
+2486,Knowledge of food preparation,9
+2487,Remember the upcoming meeting with Doyle,50
+2488,Can you shake the light?,18
+2489,What is the capital of Western Virginia,49
+2490,Find the latest podcast for Disney,58
+2491,Remove all events,30
+2492,Remove the visit to the dentist from today's calendar,30
+2493,What is my plan for that day?,32
+2494,Send a complaint to the network that there are problems with the network.,47
+2495,Play My Favorite,45
+2496,Show me information about President Trump,22
+2497,I would like to listen to some classical music except Bach or Schubert.,45
+2498,"As usual, it looks like my ordinary way to work.",11
+2499,What about my order,3
+2500,Hey olly or you like my girlfriend,12
+2501,Turn off electricity,8
+2502,which day of the week is 15th August,0
+2503,Press for 5 minutes.,46
+2504,Remember to give flowers every Tuesday Thursday and Saturday.,50
+2505,Please check my Gmail for new emails.,44
+2506,Playing Jingle Bells,45
+2507,Robot Drying Room Now,34
+2508,Impossible,58
+2509,Playlist of Nirvana,45
+2510,Which day we are this year,0
+2511,What is the situation on the roads?,11
+2512,What information should I know on my meeting today?,32
+2513,Tell me the current time.,0
+2514,The event in the calendar is true.,32
+2515,Photo from my trip to Goa post it on Instagram,47
+2516,I wrote an email to Tomka about the control of weapons.,44
+2517,Take an hour,46
+2518,Do I need a parasol at night?,13
+2519,Write a tweet that you are unhappy with Macdonald,47
+2520,Look at the next available podcast.,58
+2521,Google is the basic human needs.,12
+2522,Tell me about the current events between yesterday and today morning,32
+2523,A new email from Jan.,44
+2524,What Obama does in his everyday life?,12
+2525,Show me this time in German,0
+2526,What ingredients are needed to cook red velvet cake,9
+2527,Justina Stechkovska is buying children’s clothes.,12
+2528,Reduce the brightness of light,31
+2529,You can tell the wizzair line that I will never use their services anymore.,47
+2530,Add this email address to my contacts and send email to,15
+2531,olly or shibaru sushi has imports,3
+2532,Prepare Sanah Melodia to be the next,45
+2533,Read the post on my channel.,27
+2534,When my order is ready,3
+2535,Please read the new email.,44
+2536,solve the problem,12
+2537,Do not give any sounds.,46
+2538,What Remembrances,32
+2539,Tell me what I was wearing yesterday,12
+2540,Remove the last phrase,53
+2541,Remember the birthday of my daughter.,50
+2542,Send a reply to the last email,33
+2543,No Mow,46
+2544,Give me the last price of the bodium.,22
+2545,Wake me up in a half hour.,48
+2546,Remember me after 10 minutes.,50
+2547,How Large is the Cascade,49
+2548,Turn off the lights.,40
+2549,Please describe this item for me.,26
+2550,Silent,46
+2551,Give me the title of music.,57
+2552,Play My Music Playlist,45
+2553,I want to have the brightness of my screen.,12
+2554,Remember that I like this song.,43
+2555,Please add a list of things to buy for the party.,21
+2556,What is an artist,57
+2557,Keep the alarm on the ninth morning next Sunday.,48
+2558,Remove the curve,34
+2559,"If it comes from a well-known place, mark as important.",44
+2560,Tell me if I have any new unread emails.,44
+2561,How to get to the station by ticket,42
+2562,Show me international news.,22
+2563,Can you reduce the noise?,14
+2564,Please order me a train ticket from London to Manchester,2
+2565,I want to see the news.,22
+2566,Stop playing,20
+2567,Are there any alarms?,23
+2568,I just got an email from a mail to which I have to answer immediately.,33
+2569,Classical Rock,45
+2570,Turn the light in my house into green.,1
+2571,How long to cook the steak to be average blood,9
+2572,Brittney Spears Live Concert,36
+2573,When Christmas is in the year two thousand eighteen,0
+2574,Stick natural light,1
+2575,Make the red light here.,1
+2576,On every unpleasant Sunday make a reminder.,50
+2577,Where was Mahatma Gandhi born?,49
+2578,I want to make a note in my calendar about tomorrow’s event in the library.,50
+2579,In the last three months I have been meeting with Mr. Rapid.,32
+2580,Remove from the list,53
+2581,Latest news about terrorism,22
+2582,Check the mail.,44
+2583,Check all the alarms.,23
+2584,Can I order from May?,3
+2585,How long does it take to travel from Japan to South Korea?,49
+2586,Please order me a train ticket.,2
+2587,Remember that I have done something.,50
+2588,Include the second song from the male play,45
+2589,Do not speak for an hour.,46
+2590,Google Removes Eric's Birthday from the Calendar,30
+2591,increased noise,14
+2592,Find the average price of the house.,49
+2593,Send a mail to GOSI,33
+2594,Write all the lists on this device.,59
+2595,The start of the Super Bowl,49
+2596,Remove retro songs from my playlist,45
+2597,Remove the list,53
+2598,Sign this song with five stars.,43
+2599,Give today’s forecast for the new,13
+2600,What do you think about the future,12
+2601,Reggae,45
+2602,Why We Are Here,12
+2603,Clean the floor,34
+2604,I want to listen to a little rock.,45
+2605,Buy the cheapest train ticket to Spain,2
+2606,Activate Radio Now,36
+2607,Please highlight the maximum screen brightness.,18
+2608,What Happens in the World,22
+2609,What are the news from the last six hours?,22
+2610,I want to order a pizza from viva la pizza.,16
+2611,Alarm for the next meeting.,50
+2612,Tweet to,47
+2613,Enable the Dryer,34
+2614,Radio Zet Moral Salto,36
+2615,Can you register your birthday on the 20th of June?,50
+2616,Elections Up,22
+2617,Answer with help,33
+2618,What you want to do today,12
+2619,Tell me what is on the list.,59
+2620,Planning an hourly meeting on Saturday,50
+2621,Remember me on the 5th of March of each year about gifts for your wedding anniversary,50
+2622,What time is in Austin?,0
+2623,Send emails with data plans for today,33
+2624,Activate my morning alarm.,48
+2625,Play only in the radio a hundred one and three f. m.,36
+2626,What I have set on the ninth at the second afternoon,32
+2627,Make My Ordinary,56
+2628,Find a Recipe for Gula in the Questiasmaku Service,9
+2629,What mistakes you usually make?,12
+2630,Do you need a parasol this week?,13
+2631,Find local restaurants open now,19
+2632,Add my light to a lower level of brightness,31
+2633,What is the price of the US dollar to the pound?,10
+2634,How much is six to divide by two,39
+2635,Go to the next podcast.,58
+2636,Please read the news from my Facebook page.,27
+2637,This new email should be added to my contacts,33
+2638,When the alarm is turned on,23
+2639,Remember me something once.,50
+2640,What is the best recipe for cake with pieces of chocolate?,12
+2641,I think I can travel around the world in one day.,12
+2642,Play nine nine and eight f. m.,36
+2643,What alarms have I set?,23
+2644,The price of action,4
+2645,What about you,12
+2646,I have any alarms set tomorrow at 6 a.m.,23
+2647,You can check the facts about this.,32
+2648,Can you advise me,12
+2649,Get all kinds of pop songs,45
+2650,Order me a train ticket from Krakow to Krakow,2
+2651,Remind me to throw the waste at 6 a.m.,50
+2652,It will rain on Monday.,13
+2653,Clean up the shopping list,53
+2654,Set the light to a lower level.,31
+2655,put a hamburger on my list of food purchases,21
+2656,Turn off my alarm.,52
+2657,Birthday wishes,47
+2658,I got a new mail.,44
+2659,What ingredients can I use instead of a shell?,9
+2660,What are the latest controversies of Trump?,22
+2661,Can you order sushi for dinner today?,16
+2662,You had a hard day,12
+2663,Enter my dinner in the tabernacle in the calendar today at the twenty-first,50
+2664,Show the latest news,22
+2665,The light must be shining clearly.,31
+2666,Check if the default alarm is set.,23
+2667,Remove My Meeting on March 7th,30
+2668,What is the definition of subjective word?,26
+2669,olly write a tweet with a message to the vectors and tell them that their service is bad,47
+2670,and the darkness fell,41
+2671,Is my calendar updated in the last 10 minutes?,32
+2672,Wake me up at 5 a.m.,48
+2673,When the pizza order comes,3
+2674,Weather will be good this weekend.,13
+2675,Go to the next section.,58
+2676,Find the Amazon Restaurant,19
+2677,Where is Tomáš Bednarek?,49
+2678,Order a ticket to Krakow,2
+2679,Is there something special in politics?,22
+2680,Go to contact and add a new email address.,33
+2681,The definition of speed,26
+2682,Find Microsoft stock prices on Nasdaq,4
+2683,Tell the list,59
+2684,What is Google President?,26
+2685,You need information about Bruce Lee please help,49
+2686,I have a new mail.,44
+2687,Open Twitter Send a Message,47
+2688,Find the geographical location of this place.,49
+2689,Review of Harry Potter by J. K. Rowling,20
+2690,No light in the kitchen.,40
+2691,Chapter 5 of the King,20
+2692,The next song,45
+2693,What is the time in Dallas,0
+2694,Remove this list from others.,53
+2695,Get rid of Google lists,53
+2696,Show what time is now in London,0
+2697,I'm unhappy in tesco please help me,47
+2698,Defining the word to develop.,26
+2699,What are the news today,22
+2700,Read the latest international news,22
+2701,What is the weather today,13
+2702,The day my birthday falls this year on the twenty-seventh of June.,0
+2703,Bright color for the office,18
+2704,I will be happy if you tell me what the latest events are in my neighborhood.,6
+2705,You can provide me with the contact information to the Cube.,17
+2706,Will it rain now?,13
+2707,What color are the wings?,49
+2708,Include the book,20
+2709,Incorporate the Podcast of Karola Paciorka,58
+2710,What is the weather now,13
+2711,hej olly I met one of my old classmates today,12
+2712,What is the date today,0
+2713,Brightness for 90 percent,1
+2714,I want to hear news on radio.,36
+2715,I have a new list of things to do.,21
+2716,Posts tagged podcast last libertarian,58
+2717,I take tomorrow free.,12
+2718,scis the noise,35
+2719,Remove the second government from the list,53
+2720,Movies with good reviews,55
+2721,Tell me about the event in my calendar.,50
+2722,Get rid of the tax list of a thousand nine hundred nine,53
+2723,When is the next train to Olsztin from Krakow,42
+2724,Please upload a new email from Bartk and send a message now.,33
+2725,I want to listen to that song again.,45
+2726,Brighten the light in the salon.,18
+2727,Open the radio application,36
+2728,What is the population of Russia,49
+2729,Define the speaker,26
+2730,Do I have any messages from social media?,32
+2731,Please remove my list of things to do.,53
+2732,Please start the clothes.,51
+2733,Radio Stations,36
+2734,What Happens Today in France,22
+2735,Find the largest active volcano on Earth,49
+2736,I'm going to go to the doctor on March 30th.,32
+2737,Songs of Coldplay,45
+2738,Alexa brings the light at home,31
+2739,Call the nearest Thai restaurant with delivery,16
+2740,Congratulations on the Day,12
+2741,What is the weather in Katowice?,13
+2742,Contact information Pavla,17
+2743,What is the weather with me now?,13
+2744,Find out what the song is and give me the title.,57
+2745,Release the noise of the speaker,35
+2746,Play My Rock Playlist,45
+2747,add a conference call at 4 a.m. to my memories for today,50
+2748,Show me the solution to this task two hundred and forty six add six hundred and forty four,39
+2749,What the weather is in the mountains,13
+2750,Get rid of the events of the ninth of my calendar,30
+2751,Turn the alarm off at eight in the morning.,52
+2752,What are the sports news today?,22
+2753,Remove the pen from the list of paper materials,53
+2754,Please tell me about time.,0
+2755,Check the meeting plan in today's mail.,44
+2756,Remind me of,50
+2757,Clean the data,46
+2758,List,59
+2759,What is the mail address of the terrace,17
+2760,"If there is an event show, remove it.",53
+2761,Is this city safe?,13
+2762,Give a new email,44
+2763,What is a song,57
+2764,Enter this event permanently in my calendar.,50
+2765,What alarms are set,23
+2766,Remember that I will take my mom to the hairdresser on Thursday at 11 a.m.,50
+2767,I want to hear but jazz by Sanah,45
+2768,I have a good day add a memo,12
+2769,Order two wings with fries from the garment.,16
+2770,What is the temperature outside?,13
+2771,Home Blue Light,1
+2772,Start the playlist and play music.,45
+2773,Can you send an email to Jan that I am on vacation?,33
+2774,How much is it worth,10
+2775,When the event begins,32
+2776,What are the latest crimes statistics in my area?,22
+2777,I need something every Monday to keep a reminder,50
+2778,I feel a jazz music genre.,45
+2779,to which contacts I have not called in the last 12 months,17
+2780,What is the day today,0
+2781,Check out popular topics on Twitter.,27
+2782,Find a gluten-free oven in the area.,19
+2783,How will the weather be on the twentieth of March two thousand seventeen years,13
+2784,What is the weather in Beijing,13
+2785,When I came back from that place,12
+2786,What functions are you planning to use in the future?,12
+2787,Olly Give me some interesting events in the three cities,6
+2788,What is the deepest point on earth?,49
+2789,Remember what I do on Sunday afternoon.,50
+2790,What is the weather where I am?,13
+2791,Cisco system,55
+2792,Remove the New Year from the Calendar,30
+2793,How long is the 7kg indigo baked?,9
+2794,Send an email to this contact.,33
+2795,Reply to the email from my boss that I will be at 4 a.m.,33
+2796,Remove the floor of the kitchen from my list of things to do,53
+2797,What is the last email from work?,44
+2798,How many dogs have,49
+2799,Can you tell me what time is?,0
+2800,Continue reading the audio book.,20
+2801,Show the coming memories.,32
+2802,Please change two songs.,28
+2803,Meeting with Joanna on Saturday at 4 a.m.,50
+2804,switch to some r. m. f. m. and play it on my speakers,36
+2805,Delete the Nest,8
+2806,Playing Jazz Sanah,45
+2807,convert eight thirty out of the zone u. t. c. four to a fifth thirty out of the zone u. t. c.,38
+2808,What information I have in the memories,32
+2809,Play my romantic playlist.,45
+2810,Check the price and everything.,3
+2811,Tell me what a celebrity is.,49
+2812,The exchange rate of gold to euro,10
+2813,What alarms are,23
+2814,Please send an email to your friend as you have.,33
+2815,What is the current state of the investigation on Trump’s relations with Russia,22
+2816,Keep the brightness of the light,18
+2817,Please enable the Dryer,34
+2818,Add tomorrow dinner to your calendar.,50
+2819,Remove the post from the list,53
+2820,I have something planned.,32
+2821,Turn off the main bedroom.,40
+2822,News about Plants,22
+2823,Posted in Post by Friends,47
+2824,Give me a description of the smartphone.,26
+2825,Create an email to my employee with the latest recorded documents,33
+2826,What is the 13th December day?,0
+2827,Can you send an email to a new email ID?,33
+2828,Play Creed from My Rock Playlist,45
+2829,Do I have to put my jacket on Wednesday?,13
+2830,What is hypothesis,26
+2831,I am unavailable from the fourth to the sixth of tomorrow evening mark in my calendar,50
+2832,The concert begins on June 3th.,32
+2833,Open the receiver box to check unread emails.,44
+2834,What is the weather now,13
+2835,Follow my last entry on Twitter.,47
+2836,"Hey Olly, please turn off the light.",40
+2837,It’s cold at the court.,13
+2838,Let me know when the price of the British pound to the U.S. dollar will be as I expect.,10
+2839,Create an email to the bulk,33
+2840,Stop playing the book.,20
+2841,Open contacts and call Jan Kowalski,17
+2842,Call the alarm at eight in the morning next Saturday.,48
+2843,Christine replied.,44
+2844,My alarm is set for tomorrow morning.,23
+2845,Details of the person,49
+2846,Post on Twitter on my visit to Japan,47
+2847,What is the hour in Warsaw?,0
+2848,You can make me lunch.,12
+2849,Give me the time of local trains to the plate,42
+2850,Send a tweet that the products are,47
+2851,Tell me a joke.,25
+2852,Find food and order.,16
+2853,Turn off lamps,40
+2854,Syrians sent a mail to their colleagues,33
+2855,He sent me an ammunition message.,44
+2856,How old is Mary Carey?,49
+2857,There are some handsome handsome nearby.,6
+2858,Where to celebrate Mary's Birthday,32
+2859,We need a warm shoe in the morning of winter.,13
+2860,Stop the light action.,40
+2861,Delete the sound,46
+2862,There is any information about the President.,22
+2863,Please check the station I am now.,36
+2864,I want to turn the TV,24
+2865,Give me a plan for today’s events.,32
+2866,What Happened on the Gideon Today,4
+2867,My smoker should be enabled between the ten and eleven of the morning every day.,34
+2868,Look for the case,44
+2869,Time for unhealthy jokes,16
+2870,How many artists played Marius Benoit,49
+2871,What is the temperature,13
+2872,Read the schedule from the list.,59
+2873,Play it again please.,45
+2874,Make sure I get up at 6 a.m.,48
+2875,Please turn off all the alarms.,23
+2876,I like this song please keep it.,43
+2877,Awakening at 6 a.m.,48
+2878,Find the email address and write that I will tell you.,33
+2879,I have a bad day I can look at to improve the mood.,12
+2880,Please play pop music.,45
+2881,Define the word orange.,26
+2882,Remember my mother's birthday a week earlier.,50
+2883,rock,45
+2884,How to get a new podcast,58
+2885,music sanah,45
+2886,Increase the noise in my headsets.,14
+2887,How easy to cook the cake,9
+2888,Remember me to go to dinner with the donkey on Friday at 5 a.m.,50
+2889,I have to go to Damascus at 5 a.m. on Sunday by train.,2
+2890,What does Priyanka Chopra do to look beautiful?,12
+2891,Do you work for a.s.,12
+2892,Include a playlist for walking with a dog,45
+2893,I need good ideas for meals.,9
+2894,How many of my contacts live or live in Warsaw,17
+2895,What Happens on December 4th,32
+2896,What are the coming concerts in Dallas?,32
+2897,Remove my next event.,30
+2898,What is my plan for today?,32
+2899,Siri Kira is today.,0
+2900,I can request a list of five-star hotels in Paris,49
+2901,Baby Shower Girls,50
+2902,Reply to mail,33
+2903,Coffee,56
+2904,Wake me up in a half hour.,48
+2905,Dollar to Euro,10
+2906,Order a train ticket to Boston,2
+2907,Keep the light in the room up to 50 percent.,1
+2908,Should I take a parasol tomorrow?,13
+2909,How is my next week?,32
+2910,Can you make a little coffee?,56
+2911,Stop,20
+2912,Today is Friday.,32
+2913,Order me a train ticket.,2
+2914,Do I have a mail?,44
+2915,Start the rumors,12
+2916,"Hi, cancel all my other meetings and phone calls on March 2 because they are birthday cubes mark them as an event in your calendar",50
+2917,Find today's Facebook articles about Trump,22
+2918,Remove the alarm on the third afternoon.,52
+2919,Reply to the email by writing hello you,33
+2920,Today is March 20th.,0
+2921,Open the Harrypotter audiobook and turn it on where I finished.,20
+2922,I want the light to be a little red.,1
+2923,What are the upcoming tasks,32
+2924,President Naruto was born.,49
+2925,Add training to the calendar of February 4 in the Saxony Park at 2 a.m.,50
+2926,I have x dollars this month as much I can spend every day.,39
+2927,Opening the nearest commercial gallery,6
+2928,What is Parsec,49
+2929,What is the exchange rate of the British Pound?,10
+2930,How is my plan for today?,32
+2931,Can you answer to Christine that I will be busy with the project for the next three weeks?,33
+2932,How long should I cook the egg?,9
+2933,This is the winter for two years.,0
+2934,I want to set a date for this week.,50
+2935,Order me a taxi to the location.,54
+2936,Stake the alarm for the meeting with the pedestrian today at 7pm.,48
+2937,You want to disable the wemo plugin.,8
+2938,How cold it will be every night this week,13
+2939,Turn off the dining room,40
+2940,Reply to my mother's mail.,33
+2941,Look at the movies near me.,55
+2942,What is the time in Sydney,0
+2943,Poker face by Lady Gaga,45
+2944,What is the weather forecast for 10 days?,13
+2945,Remembrance of Wedding Raphael,32
+2946,Turn off the light now.,40
+2947,The Song of Ed Sheeran,57
+2948,Send an email to Jessica,33
+2949,Please inform me about the news from the world.,22
+2950,Show a seven-day forecast for this week.,13
+2951,Stop using the light,40
+2952,Can you tell me something about yourself?,12
+2953,What kind of solar glasses are called aviator?,49
+2954,Drink coffee now.,56
+2955,Create a list,21
+2956,Please check the email with job offer.,44
+2957,Book me a train ticket.,2
+2958,What is the movement right now?,11
+2959,Please order me an Express train ticket to get to know from Greece.,2
+2960,A film that is playing in my area.,55
+2961,I need to confirm all meetings today or you can invite these people,32
+2962,Please check my memories.,32
+2963,Google tweeting how stupid the owner of a gas station is,47
+2964,Please repeat my shopping list.,59
+2965,Can you check whether Greenway accepts import orders?,3
+2966,Turn off the light in the salon.,40
+2967,Subsection is,14
+2968,How many letters,59
+2969,Remove all events from the calendar.,30
+2970,Play the latest songs of Sanah,45
+2971,Find a taxi to order.,54
+2972,Open the meeting time,32
+2973,What are the twenty-four TV titles?,22

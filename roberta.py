@@ -1,6 +1,6 @@
 from tqdm import tqdm
 from transformers import AutoTokenizer
-from transformers import AutoModel
+from transformers import AutoModel, RobertaModel as Roberta
 from torch import Tensor
 from torch import nn
 from torch.optim import Optimizer
@@ -29,7 +29,7 @@ class RobertaTokenizer:
 
 
 class RobertaModel:
-    def __init__(self, model: AutoModel, tokenizer: AutoTokenizer, first_translate=False):
+    def __init__(self, model: Roberta, tokenizer: AutoTokenizer, first_translate=False):
         super(RobertaModel, self).__init__()
         self.model = model.cuda()
         self.tokenizer = tokenizer
@@ -113,7 +113,7 @@ class RobertaExperiment(Experiment):
 
 
         self.name = "Roberta experiment"
-        bare_model = AutoModel.from_pretrained(ROBERTA_HUGGINGFACE_MODEL_ID)
+        bare_model = Roberta.from_pretrained(ROBERTA_HUGGINGFACE_MODEL_ID)
         bare_tokenizer = AutoTokenizer.from_pretrained(
             ROBERTA_HUGGINGFACE_TOKENIZER_ID
         )
@@ -134,19 +134,23 @@ class RobertaExperiment(Experiment):
         self.opt = self.optimizer_class(opt_params, lr=self.lr)
 
     def _train(self) -> None:
+        print("before1")
         epoch_progress = tqdm(list(range(self.num_epochs)))
 
+        print("before2")
         history = []
         for i in epoch_progress:
             train_loss = 0
             y_train_predicted = []
             y_train_true = []
             self.intent_clf.train()
+            print(len(self.train_dataloader))
             if self.train_base_model:
                 self.model.model.train()
             for iteration, (X_train, y_train) in enumerate(
                 self.train_dataloader
             ):
+                print(iteration, X_train)
                 y_train = y_train.cuda()
                 self.opt.zero_grad()
                 output = self.model(X_train)
@@ -193,6 +197,8 @@ class RobertaExperiment(Experiment):
                 self.neptune_run["train/acc"].log(train_acc)
                 self.neptune_run["val/loss"].log(val_loss)
                 self.neptune_run["val/acc"].log(val_acc)
+
+            print("after")
 
     def _test(self) -> None:
         test_loss = 0
