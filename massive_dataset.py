@@ -127,12 +127,25 @@ class MASSIVEDataset:
         )
 
 
+
+
+class MASSIVETorchDatasetTranslated(data.Dataset):
+    def __init__(self, dataset):
+        self.dataset = dataset
+
+    def __len__(self):
+        return len(self.dataset)
+
+    def __getitem__(self, index):
+        example = self.dataset[index]
+        return example["sentence"], example["intent"]
+
 class MASSIVEDatasetTranslated:
     def __init__(self):
         self.split = {
-            MASSIVEDatasetSplitName.TRAIN: pd.read_csv('translated_train.csv').values.tolist(),
-            MASSIVEDatasetSplitName.VAL: pd.read_csv('translated_val.csv').values.tolist(),
-            MASSIVEDatasetSplitName.TEST: pd.read_csv('translated_test.csv').values.tolist()
+            MASSIVEDatasetSplitName.TRAIN: pd.read_csv('translated_train.csv').to_dict('records'),
+            MASSIVEDatasetSplitName.VAL: pd.read_csv('translated_val.csv').to_dict('records'),
+            MASSIVEDatasetSplitName.TEST: pd.read_csv('translated_test.csv').to_dict('records')
         }
 
     def get_dataloader(
@@ -143,14 +156,14 @@ class MASSIVEDatasetTranslated:
     ):
         if size is None:
             return data.DataLoader(
-                MASSIVEDatasetTorchDataset(self.split[split_name]),
+                MASSIVETorchDatasetTranslated(self.split[split_name]),
                 batch_size=batch_size,
                 shuffle=True,
                 num_workers=4,
             )
         return data.DataLoader(
             data.Subset(
-                MASSIVEDatasetTorchDataset(self.split[split_name]),
+                MASSIVETorchDatasetTranslated(self.split[split_name]),
                 range(size),
             ),
             batch_size=batch_size,
