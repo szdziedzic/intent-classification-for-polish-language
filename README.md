@@ -6,6 +6,8 @@ Research project for the Natural Language Processing with Deep Learning course a
 
 If you want to learn more about our project's topic go to [Intent_classification_for_Polish_language-proposal.pdf](https://github.com/szdziedzic/intent-classification-for-polish-language/blob/main/papers/Intent_classification_for_Polish_language-proposal.pdf) and read our proposal!
 
+You can find a final paper [here](https://github.com/szdziedzic/intent-classification-for-polish-language/blob/main/papers/Intent_classification_for_Polish_language.pdf)
+
 ## Authors
 
 - Grzegorz Przybylski (@Zwatotem)
