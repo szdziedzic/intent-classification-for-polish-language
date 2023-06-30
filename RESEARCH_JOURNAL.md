@@ -25,3 +25,34 @@
 - Experiment with different hyperparameters and normalization techniques to obtain the best results.
 - Experiment with different architectures of the classifier
 - Try both transfer learning and finetuning of the base model as well
+
+## 2023-06-19 - 2023-06-25
+
+- Added Polbert model with simillar classifier architecture to HerBERT
+- Added RoBERTa + M2M100 model
+- Running experiments searching for best parameters for HerBERT, Polbert and RoBERTa models
+- Tested different number of layers
+- dropout vs without dropout
+- BatchNorm vs without BatchNorm
+- different learning rate
+- transfer learning vs fine tuning
+- different optimizers
+
+## 2023-06-27
+
+- Writting final paper
+
+## 2023-06-28
+
+- Writting final paper
+
+## 2023-06-29
+
+- More work connected to writting paper
+
+## 2023-06-30
+
+- Working on final paper
+- Checking grammar reviewing it once again
+- Correcting mistakes
+- Polishing repo
